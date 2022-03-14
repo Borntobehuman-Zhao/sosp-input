@@ -1,0 +1,362 @@
+
+[2022-03-14 10:25:25] 
+DEBUG: Dfx path: D:/IDEAProject/sosp-input/src/main/webapp/WEB-INF/reportFiles
+
+[2022-03-14 10:25:25] 
+DEBUG: Esproc main path: null
+
+[2022-03-14 10:25:25] 
+INFO: The block size is empty.
+
+[2022-03-14 10:25:25] 
+DEBUG: Report home: D:/IDEAProject/sosp-input/src/main/webapp/WEB-INF/reportFiles
+
+[2022-03-14 10:25:25] 
+DEBUG: Style config: D:/IDEAProject/sosp-input/src/main/webapp/tmp/reportStyleConfig.xml
+
+[2022-03-14 10:25:25] 
+DEBUG: Display of Double.NaN: NaN
+
+[2022-03-14 10:25:25] 
+DEBUG: Use old rule: false
+
+[2022-03-14 10:25:25] 
+DEBUG: Input home: /home/reportFiles
+
+[2022-03-14 10:25:25] 
+仅限[赵]用于[null项目]开发，禁止扩散
+
+[2022-03-14 10:25:25] 
+INFO: Set The Max DataSet Rows Num to -1 , old value is -1
+
+[2022-03-14 10:25:25] 
+DEBUG: setCachePath :　cache/input
+
+[2022-03-14 10:25:26] 
+INFO: cluster members:null
+
+[2022-03-14 10:25:26] 
+DEBUG: web root is : D:\IDEAProject\sosp-input\src\main\webapp
+
+[2022-03-14 10:28:14] 
+SEVERE: 
+java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at com.raqsoft.input.view.CacheFileMonitor.run(Unknown Source:46)
+
+[2022-03-14 10:28:53] 
+DEBUG: Dfx path: D:/IDEAProject/sosp-input/src/main/webapp/WEB-INF/reportFiles
+
+[2022-03-14 10:28:53] 
+DEBUG: Esproc main path: null
+
+[2022-03-14 10:28:53] 
+INFO: The block size is empty.
+
+[2022-03-14 10:28:53] 
+DEBUG: Report home: D:/IDEAProject/sosp-input/src/main/webapp/WEB-INF/reportFiles
+
+[2022-03-14 10:28:53] 
+DEBUG: Style config: D:/IDEAProject/sosp-input/src/main/webapp/tmp/reportStyleConfig.xml
+
+[2022-03-14 10:28:53] 
+DEBUG: Display of Double.NaN: NaN
+
+[2022-03-14 10:28:53] 
+DEBUG: Use old rule: false
+
+[2022-03-14 10:28:53] 
+DEBUG: Input home: D:/IDEAProject/sosp-input/src/main/webapp/WEB-INF/reportFiles
+
+[2022-03-14 10:28:53] 
+仅限[赵]用于[null项目]开发，禁止扩散
+
+[2022-03-14 10:28:53] 
+INFO: Set The Max DataSet Rows Num to -1 , old value is -1
+
+[2022-03-14 10:28:53] 
+DEBUG: setCachePath :　cache/input
+
+[2022-03-14 10:28:53] 
+INFO: cluster members:null
+
+[2022-03-14 10:28:53] 
+DEBUG: web root is : D:\IDEAProject\sosp-input\src\main\webapp
+
+[2022-03-14 10:31:39] 
+DEBUG: INPUT MAIN PATH : D:\IDEAProject\sosp-input\src\main\webapp/WEB-INF/reportFiles
+
+[2022-03-14 10:31:39] 
+DEBUG: DFX MAIN PATH : null
+
+[2022-03-14 10:31:39] 
+DEBUG: DFX PATH : D:/IDEAProject/sosp-input/src/main/webapp/WEB-INF/reportFiles
+
+[2022-03-14 10:31:39] 
+DEBUG: noRemoteCache --- true
+
+[2022-03-14 10:31:39] 
+DEBUG: src file : bq.sht
+
+[2022-03-14 10:31:39] 
+DEBUG: find path 0 : D:\IDEAProject\sosp-input\src\main\webapp/WEB-INF/reportFiles
+
+[2022-03-14 10:31:39] 
+DEBUG: find path 1 : WEB-INF/reportFiles
+
+[2022-03-14 10:31:39] 
+DEBUG: find path 2 : D:\IDEAProject\sosp-input\src\main\webapp/WEB-INF/reportFiles
+
+[2022-03-14 10:31:39] 
+DEBUG: find path 3 : WEB-INF/reportFiles
+
+[2022-03-14 10:31:39] 
+DEBUG: find path 4 : D:\IDEAProject\sosp-input\src\main\webapp
+
+[2022-03-14 10:31:39] 
+DEBUG: D:\IDEAProject\sosp-input\src\main\webapp\WEB-INF\reportFiles\bq.sht
+
+[2022-03-14 10:31:40] 
+DEBUG: come dfx script row/col is 4/1
+
+[2022-03-14 10:31:40] 
+INFO: Sht get data begin:sg2
+
+[2022-03-14 10:31:43] 
+INFO: Sht get data begin:sg2
+
+[2022-03-14 10:31:43] 
+INFO: Sht calc begin:sg2
+
+[2022-03-14 10:31:43] 
+DEBUG: dealFieldName2......
+
+[2022-03-14 10:31:43] 
+DEBUG: rowRows : []
+
+[2022-03-14 10:31:43] 
+DEBUG: header t1 : task_id	unit_credit_code	N	source_unit_name	Y
+1_2	1_5	1_7	2_5	2_7
+
+
+[2022-03-14 10:31:43] 
+DEBUG: header t : task_id	unit_credit_code	N	source_unit_name	Y
+1_2	1_5	1_7	2_5	2_7
+
+
+[2022-03-14 10:31:43] 
+DEBUG: ----------------------------------
+
+[2022-03-14 10:31:43] 
+INFO: Sht calc end:sg2
+
+[2022-03-14 10:31:43] 
+INFO: Sht analyze begin:sg2
+
+[2022-03-14 10:31:43] 
+DEBUG: dealFieldName2......
+
+[2022-03-14 10:31:43] 
+DEBUG: rowRows : [4]
+
+[2022-03-14 10:31:43] 
+DEBUG: header t1 : task_id	unit_credit_code	N	source_unit_name	Y
+1_2	1_5	1_7	2_5	2_7
+
+
+[2022-03-14 10:31:43] 
+DEBUG: header t : task_id	unit_credit_code	N	source_unit_name	Y
+1_2	1_5	1_7	2_5	2_7
+
+
+[2022-03-14 10:31:43] 
+DEBUG: public dims : []
+
+[2022-03-14 10:31:43] 
+DEBUG: ROW table : [ds2] : id	task_id	ind_code	ind_name	bq
+4_1	4_2	4_3	4_4	4_6
+
+
+[2022-03-14 10:31:43] 
+INFO: Sht analyze end:sg2
+
+[2022-03-14 10:31:43] 
+INFO: Sht HTML begin:sg2
+
+[2022-03-14 10:31:43] 
+DEBUG: [mkdir input cache dir:true]
+
+[2022-03-14 10:31:44] 
+DEBUG: [write ms :44]
+
+[2022-03-14 10:31:44] 
+INFO: Sht HTML first part end:sg2
+
+[2022-03-14 10:31:44] 
+DEBUG: CHARSET : UTF-8
+
+[2022-03-14 10:31:44] 
+DEBUG: CHARSET : UTF-8
+
+[2022-03-14 10:31:44] 
+DEBUG: CHARSET : UTF-8
+
+[2022-03-14 10:51:55] 
+DEBUG: INPUT MAIN PATH : D:\IDEAProject\sosp-input\src\main\webapp/WEB-INF/reportFiles
+
+[2022-03-14 10:51:55] 
+DEBUG: DFX MAIN PATH : null
+
+[2022-03-14 10:51:55] 
+DEBUG: DFX PATH : D:/IDEAProject/sosp-input/src/main/webapp/WEB-INF/reportFiles
+
+[2022-03-14 10:51:55] 
+DEBUG: noRemoteCache --- true
+
+[2022-03-14 10:51:55] 
+DEBUG: src file : bq.sht
+
+[2022-03-14 10:51:55] 
+DEBUG: find path 0 : D:\IDEAProject\sosp-input\src\main\webapp/WEB-INF/reportFiles
+
+[2022-03-14 10:51:55] 
+DEBUG: find path 1 : WEB-INF/reportFiles
+
+[2022-03-14 10:51:55] 
+DEBUG: find path 2 : D:\IDEAProject\sosp-input\src\main\webapp/WEB-INF/reportFiles
+
+[2022-03-14 10:51:55] 
+DEBUG: find path 3 : WEB-INF/reportFiles
+
+[2022-03-14 10:51:55] 
+DEBUG: find path 4 : D:\IDEAProject\sosp-input\src\main\webapp
+
+[2022-03-14 10:51:55] 
+DEBUG: D:\IDEAProject\sosp-input\src\main\webapp\WEB-INF\reportFiles\bq.sht
+
+[2022-03-14 10:51:55] 
+DEBUG: come dfx script row/col is 4/1
+
+[2022-03-14 10:51:55] 
+INFO: Sht get data begin:sg3
+
+[2022-03-14 10:51:55] 
+INFO: Sht get data begin:sg3
+
+[2022-03-14 10:51:55] 
+INFO: Sht calc begin:sg3
+
+[2022-03-14 10:51:55] 
+DEBUG: dealFieldName2......
+
+[2022-03-14 10:51:55] 
+DEBUG: rowRows : []
+
+[2022-03-14 10:51:55] 
+DEBUG: header t1 : task_id	unit_credit_code	N	source_unit_name	Y
+1_2	1_5	1_7	2_5	2_7
+
+
+[2022-03-14 10:51:55] 
+DEBUG: header t : task_id	unit_credit_code	N	source_unit_name	Y
+1_2	1_5	1_7	2_5	2_7
+
+
+[2022-03-14 10:51:55] 
+DEBUG: ----------------------------------
+
+[2022-03-14 10:51:55] 
+INFO: Sht calc end:sg3
+
+[2022-03-14 10:51:55] 
+INFO: Sht analyze begin:sg3
+
+[2022-03-14 10:51:55] 
+DEBUG: dealFieldName2......
+
+[2022-03-14 10:51:55] 
+DEBUG: rowRows : [4]
+
+[2022-03-14 10:51:55] 
+DEBUG: header t1 : task_id	unit_credit_code	N	source_unit_name	Y
+1_2	1_5	1_7	2_5	2_7
+
+
+[2022-03-14 10:51:55] 
+DEBUG: header t : task_id	unit_credit_code	N	source_unit_name	Y
+1_2	1_5	1_7	2_5	2_7
+
+
+[2022-03-14 10:51:55] 
+DEBUG: public dims : []
+
+[2022-03-14 10:51:55] 
+DEBUG: ROW table : [ds2] : id	task_id	ind_code	ind_name	bq
+4_1	4_2	4_3	4_4	4_6
+
+
+[2022-03-14 10:51:55] 
+INFO: Sht analyze end:sg3
+
+[2022-03-14 10:51:55] 
+INFO: Sht HTML begin:sg3
+
+[2022-03-14 10:51:55] 
+DEBUG: [write ms :3]
+
+[2022-03-14 10:51:55] 
+INFO: Sht HTML first part end:sg3
+
+[2022-03-14 10:51:55] 
+DEBUG: CHARSET : UTF-8
+
+[2022-03-14 10:51:55] 
+DEBUG: CHARSET : UTF-8
+
+[2022-03-14 10:51:55] 
+DEBUG: CHARSET : UTF-8
+
+[2022-03-14 10:54:41] 
+SEVERE: 
+java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at com.raqsoft.input.view.CacheFileMonitor.run(Unknown Source:46)
+
+[2022-03-14 10:54:54] 
+DEBUG: Dfx path: /home/reportFiles
+
+[2022-03-14 10:54:54] 
+DEBUG: Esproc main path: null
+
+[2022-03-14 10:54:54] 
+INFO: The block size is empty.
+
+[2022-03-14 10:54:55] 
+DEBUG: Report home: /home/reportFiles
+
+[2022-03-14 10:54:55] 
+DEBUG: Style config: D:/IDEAProject/sosp-input/src/main/webapp/tmp/reportStyleConfig.xml
+
+[2022-03-14 10:54:55] 
+DEBUG: Display of Double.NaN: NaN
+
+[2022-03-14 10:54:55] 
+DEBUG: Use old rule: false
+
+[2022-03-14 10:54:55] 
+DEBUG: Input home: /home/reportFiles
+
+[2022-03-14 10:54:55] 
+仅限[赵]用于[null项目]开发，禁止扩散
+
+[2022-03-14 10:54:55] 
+INFO: Set The Max DataSet Rows Num to -1 , old value is -1
+
+[2022-03-14 10:54:55] 
+DEBUG: setCachePath :　cache/input
+
+[2022-03-14 10:54:55] 
+INFO: cluster members:null
+
+[2022-03-14 10:54:55] 
+DEBUG: web root is : D:\IDEAProject\sosp-input\src\main\webapp

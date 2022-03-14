@@ -1,0 +1,656 @@
+
+[2021-06-16 21:29:21] 
+DEBUG: Dfx path: D:/IDEAProject/sosp-input/src/main/webapp/WEB-INF/reportFiles
+
+[2021-06-16 21:29:21] 
+DEBUG: Esproc main path: null
+
+[2021-06-16 21:29:21] 
+INFO: The block size is empty.
+
+[2021-06-16 21:29:22] 
+DEBUG: Report home: D:/IDEAProject/sosp-input/src/main/webapp/WEB-INF/reportFiles
+
+[2021-06-16 21:29:22] 
+DEBUG: Style config: D:/IDEAProject/sosp-input/src/main/webapp/tmp/reportStyleConfig.xml
+
+[2021-06-16 21:29:22] 
+DEBUG: Display of Double.NaN: NaN
+
+[2021-06-16 21:29:22] 
+DEBUG: Use old rule: false
+
+[2021-06-16 21:29:22] 
+DEBUG: Input home: /data/reportFiles
+
+[2021-06-16 21:29:22] 
+仅限[北京中软国际信息技术有限公司]用于[陕西水务集团国资监管平台项目项目]开发，禁止扩散
+
+[2021-06-16 21:29:22] 
+INFO: Set The Max DataSet Rows Num to -1 , old value is -1
+
+[2021-06-16 21:29:22] 
+DEBUG: setCachePath :　cache/input
+
+[2021-06-16 21:29:22] 
+INFO: cluster members:null
+
+[2021-06-16 21:29:22] 
+DEBUG: web root is : D:\IDEAProject\sosp-input\src\main\webapp
+
+[2021-06-16 21:35:53] 
+SEVERE: 
+java.lang.InterruptedException: sleep interrupted
+	at java.base/java.lang.Thread.sleep(Native Method)
+	at com.raqsoft.input.view.CacheFileMonitor.run(Unknown Source:46)
+
+[2021-06-16 21:41:14] 
+DEBUG: Dfx path: D:/IDEAProject/sosp-input/src/main/webapp/WEB-INF/reportFiles
+
+[2021-06-16 21:41:14] 
+DEBUG: Esproc main path: null
+
+[2021-06-16 21:41:14] 
+INFO: The block size is empty.
+
+[2021-06-16 21:41:14] 
+DEBUG: Report home: D:/IDEAProject/sosp-input/src/main/webapp/WEB-INF/reportFiles
+
+[2021-06-16 21:41:14] 
+DEBUG: Style config: D:/IDEAProject/sosp-input/src/main/webapp/tmp/reportStyleConfig.xml
+
+[2021-06-16 21:41:14] 
+DEBUG: Display of Double.NaN: NaN
+
+[2021-06-16 21:41:14] 
+DEBUG: Use old rule: false
+
+[2021-06-16 21:41:14] 
+DEBUG: Input home: /WEB-INF/reportFiles
+
+[2021-06-16 21:41:14] 
+仅限[北京中软国际信息技术有限公司]用于[陕西水务集团国资监管平台项目项目]开发，禁止扩散
+
+[2021-06-16 21:41:14] 
+INFO: Set The Max DataSet Rows Num to -1 , old value is -1
+
+[2021-06-16 21:41:14] 
+DEBUG: setCachePath :　cache/input
+
+[2021-06-16 21:41:15] 
+INFO: cluster members:null
+
+[2021-06-16 21:41:15] 
+DEBUG: web root is : D:\IDEAProject\sosp-input\src\main\webapp
+
+[2021-06-16 21:41:38] 
+DEBUG: INPUT MAIN PATH : /WEB-INF/reportFiles
+
+[2021-06-16 21:41:38] 
+DEBUG: DFX MAIN PATH : null
+
+[2021-06-16 21:41:38] 
+DEBUG: DFX PATH : D:/IDEAProject/sosp-input/src/main/webapp/WEB-INF/reportFiles
+
+[2021-06-16 21:41:38] 
+DEBUG: noRemoteCache --- true
+
+[2021-06-16 21:41:39] 
+DEBUG: src file : ShowView1.sht
+
+[2021-06-16 21:41:39] 
+DEBUG: find path 0 : D:\IDEAProject\sosp-input\src\main\webapp//WEB-INF/reportFiles
+
+[2021-06-16 21:41:39] 
+DEBUG: find path 1 : /WEB-INF/reportFiles
+
+[2021-06-16 21:41:39] 
+DEBUG: find path 2 : D:\IDEAProject\sosp-input\src\main\webapp//WEB-INF/reportFiles
+
+[2021-06-16 21:41:39] 
+DEBUG: find path 3 : /WEB-INF/reportFiles
+
+[2021-06-16 21:41:39] 
+DEBUG: find path 4 : D:\IDEAProject\sosp-input\src\main\webapp
+
+[2021-06-16 21:41:39] 
+DEBUG: D:\IDEAProject\sosp-input\src\main\webapp\WEB-INF\reportFiles\ShowView1.sht
+
+[2021-06-16 21:41:40] 
+DEBUG: come dfx script row/col is 3/1
+
+[2021-06-16 21:41:40] 
+INFO: Sht get data begin:sg2
+
+[2021-06-16 21:42:06] 
+SEVERE: ERROR:
+com.raqsoft.common.RQException: 单元格A1中有错误
+jeesite: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.raqsoft.expression.function.Connect.calculate(Unknown Source:40)
+	at com.raqsoft.expression.Expression.calculate(Unknown Source:107)
+	at com.raqsoft.cellset.datamodel.PgmNormalCell.calculate(Unknown Source:153)
+	at com.raqsoft.cellset.datamodel.PgmCellSet._$3(Unknown Source:1993)
+	at com.raqsoft.cellset.datamodel.PgmCellSet.execute(Unknown Source:2552)
+	at com.raqsoft.input.tag.InputTag.generateInput(Unknown Source:1315)
+	at com.raqsoft.input.tag.InputTag.calcInput(Unknown Source:1554)
+	at com.raqsoft.input.tag.InputTag.doStartTag(Unknown Source:502)
+	at org.apache.jsp.reportJsp.showInput_jsp._jspService(showInput_jsp.java:399)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+	at org.apache.jasper.servlet.JspServlet._serviceJspFile(JspServlet.java:382)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:40001)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:711)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:460)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:387)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:315)
+	at com.jfinal.render.JspRender.render(JspRender.java:67)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:113)
+	at com.jfinal.ext.handler.UrlSkipHandler.handle(UrlSkipHandler.java:46)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:90)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:201)
+	at org.apache.catalina.core.StandardContextValve.__invoke(StandardContextValve.java:97)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:41002)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:364)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1629)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.raqsoft.common.DBSessionFactory.getSession(Unknown Source:43)
+	at com.raqsoft.dm.DBObject.<init>(Unknown Source:46)
+	at com.raqsoft.expression.function.Connect.calculate(Unknown Source:37)
+	... 48 more
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:89)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:144)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:956)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:826)
+	... 54 more
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.base/java.net.PlainSocketImpl.connect0(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:101)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403)
+	at java.base/java.net.Socket.connect(Socket.java:608)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:63)
+	... 57 more
+
+[2021-06-16 21:45:31] 
+DEBUG: INPUT MAIN PATH : /WEB-INF/reportFiles
+
+[2021-06-16 21:45:31] 
+DEBUG: DFX MAIN PATH : null
+
+[2021-06-16 21:45:31] 
+DEBUG: DFX PATH : D:/IDEAProject/sosp-input/src/main/webapp/WEB-INF/reportFiles
+
+[2021-06-16 21:45:31] 
+DEBUG: noRemoteCache --- true
+
+[2021-06-16 21:45:31] 
+DEBUG: src file : ShowView1.sht
+
+[2021-06-16 21:45:31] 
+DEBUG: find path 0 : D:\IDEAProject\sosp-input\src\main\webapp//WEB-INF/reportFiles
+
+[2021-06-16 21:45:31] 
+DEBUG: find path 1 : /WEB-INF/reportFiles
+
+[2021-06-16 21:45:31] 
+DEBUG: find path 2 : D:\IDEAProject\sosp-input\src\main\webapp//WEB-INF/reportFiles
+
+[2021-06-16 21:45:31] 
+DEBUG: find path 3 : /WEB-INF/reportFiles
+
+[2021-06-16 21:45:31] 
+DEBUG: find path 4 : D:\IDEAProject\sosp-input\src\main\webapp
+
+[2021-06-16 21:45:31] 
+DEBUG: D:\IDEAProject\sosp-input\src\main\webapp\WEB-INF\reportFiles\ShowView1.sht
+
+[2021-06-16 21:45:31] 
+DEBUG: come dfx script row/col is 3/1
+
+[2021-06-16 21:45:31] 
+INFO: Sht get data begin:sg3
+
+[2021-06-16 21:45:52] 
+SEVERE: ERROR:
+com.raqsoft.common.RQException: 单元格A1中有错误
+jeesite: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.raqsoft.expression.function.Connect.calculate(Unknown Source:40)
+	at com.raqsoft.expression.Expression.calculate(Unknown Source:107)
+	at com.raqsoft.cellset.datamodel.PgmNormalCell.calculate(Unknown Source:153)
+	at com.raqsoft.cellset.datamodel.PgmCellSet._$3(Unknown Source:1993)
+	at com.raqsoft.cellset.datamodel.PgmCellSet.execute(Unknown Source:2552)
+	at com.raqsoft.input.tag.InputTag.generateInput(Unknown Source:1315)
+	at com.raqsoft.input.tag.InputTag.calcInput(Unknown Source:1554)
+	at com.raqsoft.input.tag.InputTag.doStartTag(Unknown Source:502)
+	at org.apache.jsp.reportJsp.showInput_jsp._jspService(showInput_jsp.java:399)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+	at org.apache.jasper.servlet.JspServlet._serviceJspFile(JspServlet.java:382)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:40001)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:711)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:460)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:387)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:315)
+	at com.jfinal.render.JspRender.render(JspRender.java:67)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:113)
+	at com.jfinal.ext.handler.UrlSkipHandler.handle(UrlSkipHandler.java:46)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:90)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:201)
+	at org.apache.catalina.core.StandardContextValve.__invoke(StandardContextValve.java:97)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:41002)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:364)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1629)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.raqsoft.common.DBSessionFactory.getSession(Unknown Source:43)
+	at com.raqsoft.dm.DBObject.<init>(Unknown Source:46)
+	at com.raqsoft.expression.function.Connect.calculate(Unknown Source:37)
+	... 48 more
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:89)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:144)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:956)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:826)
+	... 54 more
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.base/java.net.PlainSocketImpl.connect0(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:101)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403)
+	at java.base/java.net.Socket.connect(Socket.java:608)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:63)
+	... 57 more
+
+[2021-06-16 21:46:02] 
+SEVERE: 
+java.lang.InterruptedException: sleep interrupted
+	at java.base/java.lang.Thread.sleep(Native Method)
+	at com.raqsoft.input.view.CacheFileMonitor.run(Unknown Source:46)
+
+[2021-06-16 21:47:06] 
+DEBUG: Dfx path: D:/IDEAProject/sosp-input/src/main/webapp/WEB-INF/reportFiles
+
+[2021-06-16 21:47:06] 
+DEBUG: Esproc main path: null
+
+[2021-06-16 21:47:06] 
+INFO: The block size is empty.
+
+[2021-06-16 21:47:06] 
+DEBUG: Report home: D:/IDEAProject/sosp-input/src/main/webapp/WEB-INF/reportFiles
+
+[2021-06-16 21:47:06] 
+DEBUG: Style config: D:/IDEAProject/sosp-input/src/main/webapp/tmp/reportStyleConfig.xml
+
+[2021-06-16 21:47:06] 
+DEBUG: Display of Double.NaN: NaN
+
+[2021-06-16 21:47:06] 
+DEBUG: Use old rule: false
+
+[2021-06-16 21:47:06] 
+DEBUG: Input home: /WEB-INF/reportFiles
+
+[2021-06-16 21:47:06] 
+仅限[北京中软国际信息技术有限公司]用于[陕西水务集团国资监管平台项目项目]开发，禁止扩散
+
+[2021-06-16 21:47:06] 
+INFO: Set The Max DataSet Rows Num to -1 , old value is -1
+
+[2021-06-16 21:47:06] 
+DEBUG: setCachePath :　cache/input
+
+[2021-06-16 21:47:07] 
+INFO: cluster members:null
+
+[2021-06-16 21:47:07] 
+DEBUG: web root is : D:\IDEAProject\sosp-input\src\main\webapp
+
+[2021-06-16 22:11:27] 
+DEBUG: INPUT MAIN PATH : /WEB-INF/reportFiles
+
+[2021-06-16 22:11:27] 
+DEBUG: DFX MAIN PATH : null
+
+[2021-06-16 22:11:27] 
+DEBUG: DFX PATH : D:/IDEAProject/sosp-input/src/main/webapp/WEB-INF/reportFiles
+
+[2021-06-16 22:11:27] 
+DEBUG: noRemoteCache --- true
+
+[2021-06-16 22:11:27] 
+DEBUG: src file : ShowView1.sht
+
+[2021-06-16 22:11:27] 
+DEBUG: find path 0 : D:\IDEAProject\sosp-input\src\main\webapp//WEB-INF/reportFiles
+
+[2021-06-16 22:11:27] 
+DEBUG: find path 1 : /WEB-INF/reportFiles
+
+[2021-06-16 22:11:27] 
+DEBUG: find path 2 : D:\IDEAProject\sosp-input\src\main\webapp//WEB-INF/reportFiles
+
+[2021-06-16 22:11:27] 
+DEBUG: find path 3 : /WEB-INF/reportFiles
+
+[2021-06-16 22:11:27] 
+DEBUG: find path 4 : D:\IDEAProject\sosp-input\src\main\webapp
+
+[2021-06-16 22:11:27] 
+DEBUG: D:\IDEAProject\sosp-input\src\main\webapp\WEB-INF\reportFiles\ShowView1.sht
+
+[2021-06-16 22:11:27] 
+DEBUG: come dfx script row/col is 3/1
+
+[2021-06-16 22:11:27] 
+INFO: Sht get data begin:sg2
+
+[2021-06-16 22:11:28] 
+SEVERE: ERROR:
+com.raqsoft.common.RQException: 单元格A1中有错误
+jeesite: Packet for query is too large (4,739,923 > 65,535). You can change this value on the server by setting the 'max_allowed_packet' variable.
+	at com.raqsoft.expression.function.Connect.calculate(Unknown Source:40)
+	at com.raqsoft.expression.Expression.calculate(Unknown Source:107)
+	at com.raqsoft.cellset.datamodel.PgmNormalCell.calculate(Unknown Source:153)
+	at com.raqsoft.cellset.datamodel.PgmCellSet._$3(Unknown Source:1993)
+	at com.raqsoft.cellset.datamodel.PgmCellSet.execute(Unknown Source:2552)
+	at com.raqsoft.input.tag.InputTag.generateInput(Unknown Source:1315)
+	at com.raqsoft.input.tag.InputTag.calcInput(Unknown Source:1554)
+	at com.raqsoft.input.tag.InputTag.doStartTag(Unknown Source:502)
+	at org.apache.jsp.reportJsp.showInput_jsp._jspService(showInput_jsp.java:399)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+	at org.apache.jasper.servlet.JspServlet._serviceJspFile(JspServlet.java:382)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:40001)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:711)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:460)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:387)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:315)
+	at com.jfinal.render.JspRender.render(JspRender.java:67)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:113)
+	at com.jfinal.ext.handler.UrlSkipHandler.handle(UrlSkipHandler.java:46)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:90)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:201)
+	at org.apache.catalina.core.StandardContextValve.__invoke(StandardContextValve.java:97)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:41002)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:364)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1629)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: com.mysql.cj.jdbc.exceptions.PacketTooBigException: Packet for query is too large (4,739,923 > 65,535). You can change this value on the server by setting the 'max_allowed_packet' variable.
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:107)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.raqsoft.common.DBSessionFactory.getSession(Unknown Source:43)
+	at com.raqsoft.dm.DBObject.<init>(Unknown Source:46)
+	at com.raqsoft.expression.function.Connect.calculate(Unknown Source:37)
+	... 48 more
+
+[2021-06-16 22:17:02] 
+DEBUG: INPUT MAIN PATH : /WEB-INF/reportFiles
+
+[2021-06-16 22:17:02] 
+DEBUG: DFX MAIN PATH : null
+
+[2021-06-16 22:17:02] 
+DEBUG: DFX PATH : D:/IDEAProject/sosp-input/src/main/webapp/WEB-INF/reportFiles
+
+[2021-06-16 22:17:02] 
+DEBUG: noRemoteCache --- true
+
+[2021-06-16 22:17:02] 
+DEBUG: src file : ShowView1.sht
+
+[2021-06-16 22:17:02] 
+DEBUG: find path 0 : D:\IDEAProject\sosp-input\src\main\webapp//WEB-INF/reportFiles
+
+[2021-06-16 22:17:02] 
+DEBUG: find path 1 : /WEB-INF/reportFiles
+
+[2021-06-16 22:17:02] 
+DEBUG: find path 2 : D:\IDEAProject\sosp-input\src\main\webapp//WEB-INF/reportFiles
+
+[2021-06-16 22:17:02] 
+DEBUG: find path 3 : /WEB-INF/reportFiles
+
+[2021-06-16 22:17:02] 
+DEBUG: find path 4 : D:\IDEAProject\sosp-input\src\main\webapp
+
+[2021-06-16 22:17:02] 
+DEBUG: D:\IDEAProject\sosp-input\src\main\webapp\WEB-INF\reportFiles\ShowView1.sht
+
+[2021-06-16 22:17:02] 
+DEBUG: come dfx script row/col is 3/1
+
+[2021-06-16 22:17:02] 
+INFO: Sht get data begin:sg3
+
+[2021-06-16 22:17:02] 
+SEVERE: ERROR:
+com.raqsoft.common.RQException: 单元格A1中有错误
+jeesite: Packet for query is too large (4,739,923 > 65,535). You can change this value on the server by setting the 'max_allowed_packet' variable.
+	at com.raqsoft.expression.function.Connect.calculate(Unknown Source:40)
+	at com.raqsoft.expression.Expression.calculate(Unknown Source:107)
+	at com.raqsoft.cellset.datamodel.PgmNormalCell.calculate(Unknown Source:153)
+	at com.raqsoft.cellset.datamodel.PgmCellSet._$3(Unknown Source:1993)
+	at com.raqsoft.cellset.datamodel.PgmCellSet.execute(Unknown Source:2552)
+	at com.raqsoft.input.tag.InputTag.generateInput(Unknown Source:1315)
+	at com.raqsoft.input.tag.InputTag.calcInput(Unknown Source:1554)
+	at com.raqsoft.input.tag.InputTag.doStartTag(Unknown Source:502)
+	at org.apache.jsp.reportJsp.showInput_jsp._jspService(showInput_jsp.java:399)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+	at org.apache.jasper.servlet.JspServlet._serviceJspFile(JspServlet.java:382)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:40001)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:711)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:460)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:387)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:315)
+	at com.jfinal.render.JspRender.render(JspRender.java:67)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:113)
+	at com.jfinal.ext.handler.UrlSkipHandler.handle(UrlSkipHandler.java:46)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:90)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:201)
+	at org.apache.catalina.core.StandardContextValve.__invoke(StandardContextValve.java:97)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:41002)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:364)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1629)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: com.mysql.cj.jdbc.exceptions.PacketTooBigException: Packet for query is too large (4,739,923 > 65,535). You can change this value on the server by setting the 'max_allowed_packet' variable.
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:107)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.raqsoft.common.DBSessionFactory.getSession(Unknown Source:43)
+	at com.raqsoft.dm.DBObject.<init>(Unknown Source:46)
+	at com.raqsoft.expression.function.Connect.calculate(Unknown Source:37)
+	... 48 more
+
+[2021-06-16 22:22:55] 
+SEVERE: 
+java.lang.InterruptedException: sleep interrupted
+	at java.base/java.lang.Thread.sleep(Native Method)
+	at com.raqsoft.input.view.CacheFileMonitor.run(Unknown Source:46)
+
+[2021-06-16 22:23:55] 
+DEBUG: Dfx path: D:/IDEAProject/sosp-input/src/main/webapp/WEB-INF/reportFiles
+
+[2021-06-16 22:23:55] 
+DEBUG: Esproc main path: null
+
+[2021-06-16 22:23:55] 
+INFO: The block size is empty.
+
+[2021-06-16 22:23:55] 
+DEBUG: Report home: D:/IDEAProject/sosp-input/src/main/webapp/WEB-INF/reportFiles
+
+[2021-06-16 22:23:55] 
+DEBUG: Style config: D:/IDEAProject/sosp-input/src/main/webapp/tmp/reportStyleConfig.xml
+
+[2021-06-16 22:23:55] 
+DEBUG: Display of Double.NaN: NaN
+
+[2021-06-16 22:23:55] 
+DEBUG: Use old rule: false
+
+[2021-06-16 22:23:55] 
+DEBUG: Input home: /WEB-INF/reportFiles
+
+[2021-06-16 22:23:55] 
+仅限[北京中软国际信息技术有限公司]用于[陕西水务集团国资监管平台项目项目]开发，禁止扩散
+
+[2021-06-16 22:23:55] 
+INFO: Set The Max DataSet Rows Num to -1 , old value is -1
+
+[2021-06-16 22:23:55] 
+DEBUG: setCachePath :　cache/input
+
+[2021-06-16 22:23:55] 
+INFO: cluster members:null
+
+[2021-06-16 22:23:55] 
+DEBUG: web root is : D:\IDEAProject\sosp-input\src\main\webapp
+
+[2021-06-16 23:12:49] 
+SEVERE: 
+java.lang.InterruptedException: sleep interrupted
+	at java.base/java.lang.Thread.sleep(Native Method)
+	at com.raqsoft.input.view.CacheFileMonitor.run(Unknown Source:46)

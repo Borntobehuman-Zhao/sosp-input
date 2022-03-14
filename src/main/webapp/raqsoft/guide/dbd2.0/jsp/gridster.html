@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+<script src="../../js/j_query_yi_jiu_yi.js"></script>
+<script src="../../../../js/bootstrap.min.js"></script>
+<script src="../../../../js/bootstrap-treeview.js"></script>
+<script type="text/javascript" src="../js/gridster/jquery.dsmorse-gridster.js"></script>
+<link href="../js/gridster/jquery.dsmorse-gridster.min.css"  rel="stylesheet"/>
+<style type="text/css">
+.gs-w{
+background: #FFF;
+}
+
+li{
+	list-style: none;
+}
+</style>
+</head>
+
+<body style="background: #004756;">
+<div class="gridster">
+    <ul>
+        <li data-row="1" data-col="1" data-sizex="1" data-sizey="1"><div class="inner">1</div></li>
+        <li data-row="2" data-col="1" data-sizex="1" data-sizey="1"><div class="inner">1</div></li>
+        <li data-row="3" data-col="1" data-sizex="1" data-sizey="1"><div class="inner">1</div></li>
+
+        <li data-row="1" data-col="2" data-sizex="2" data-sizey="1"><div class="inner">1</div></li>
+        <li data-row="2" data-col="2" data-sizex="2" data-sizey="2"><div class="inner">1</div></li>
+
+        <li data-row="1" data-col="4" data-sizex="1" data-sizey="1"><div class="inner">1</div></li>
+        <li data-row="2" data-col="4" data-sizex="2" data-sizey="1"><div class="inner">1</div></li>
+        <li data-row="3" data-col="4" data-sizex="1" data-sizey="1"><div class="inner">1</div></li>
+
+        <li data-row="1" data-col="5" data-sizex="1" data-sizey="1"><div class="inner">1</div></li>
+        <li data-row="3" data-col="5" data-sizex="1" data-sizey="1"><div class="inner">1</div></li>
+
+        <li data-row="1" data-col="6" data-sizex="1" data-sizey="1"><div class="inner">1</div></li>
+        <li data-row="2" data-col="6" data-sizex="1" data-sizey="2"><div class="inner">1</div></li>
+    </ul>
+</div>
+<h1>111</h1>
+</body>
+<script>
+$(function(){ //DOM Ready
+
+   var gridster = $(".gridster>ul").gridster({
+        widget_margins: [10, 10],
+        widget_base_dimensions: [140, 140],
+        helper:'clone',
+        resize:{enabled:true}
+    }).data('gridster');
+    
+    gridster.add_widget( '<li><div class="inner">1</div></li>',
+    		1, 1, 1, 6 );
+
+});
+</script>
+</html>

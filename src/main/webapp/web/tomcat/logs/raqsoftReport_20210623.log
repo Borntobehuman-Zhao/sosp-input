@@ -1,0 +1,3178 @@
+
+[2021-06-23 15:25:13] 
+DEBUG: Dfx path: D:/IDEAProject/sosp-input/src/main/webapp/WEB-INF/reportFiles
+
+[2021-06-23 15:25:13] 
+DEBUG: Esproc main path: null
+
+[2021-06-23 15:25:13] 
+INFO: The block size is empty.
+
+[2021-06-23 15:25:13] 
+DEBUG: Report home: D:/IDEAProject/sosp-input/src/main/webapp/WEB-INF/reportFiles
+
+[2021-06-23 15:25:13] 
+DEBUG: Style config: D:/IDEAProject/sosp-input/src/main/webapp/tmp/reportStyleConfig.xml
+
+[2021-06-23 15:25:13] 
+DEBUG: Display of Double.NaN: NaN
+
+[2021-06-23 15:25:13] 
+DEBUG: Use old rule: false
+
+[2021-06-23 15:25:13] 
+DEBUG: Input home: /WEB-INF/reportFiles
+
+[2021-06-23 15:25:13] 
+仅限[北京中软国际信息技术有限公司]用于[陕西水务集团国资监管平台项目项目]开发，禁止扩散
+
+[2021-06-23 15:25:13] 
+INFO: Set The Max DataSet Rows Num to -1 , old value is -1
+
+[2021-06-23 15:25:13] 
+DEBUG: setCachePath :　cache/input
+
+[2021-06-23 15:25:14] 
+INFO: cluster members:null
+
+[2021-06-23 15:25:14] 
+DEBUG: web root is : D:\IDEAProject\sosp-input\src\main\webapp
+
+[2021-06-23 15:25:31] 
+DEBUG: INPUT MAIN PATH : /WEB-INF/reportFiles
+
+[2021-06-23 15:25:31] 
+DEBUG: DFX MAIN PATH : null
+
+[2021-06-23 15:25:31] 
+DEBUG: DFX PATH : D:/IDEAProject/sosp-input/src/main/webapp/WEB-INF/reportFiles
+
+[2021-06-23 15:25:31] 
+DEBUG: noRemoteCache --- true
+
+[2021-06-23 15:25:31] 
+DEBUG: src file : gd.sht
+
+[2021-06-23 15:25:31] 
+DEBUG: find path 0 : D:\IDEAProject\sosp-input\src\main\webapp//WEB-INF/reportFiles
+
+[2021-06-23 15:25:31] 
+DEBUG: find path 1 : /WEB-INF/reportFiles
+
+[2021-06-23 15:25:31] 
+DEBUG: find path 2 : D:\IDEAProject\sosp-input\src\main\webapp//WEB-INF/reportFiles
+
+[2021-06-23 15:25:31] 
+DEBUG: find path 3 : /WEB-INF/reportFiles
+
+[2021-06-23 15:25:31] 
+DEBUG: find path 4 : D:\IDEAProject\sosp-input\src\main\webapp
+
+[2021-06-23 15:25:31] 
+DEBUG: skip web resource search.Path gd.sht does not start with a "/" character
+
+[2021-06-23 15:25:31] 
+DEBUG: No resource file located:/gd.sht
+
+[2021-06-23 15:25:31] 
+DEBUG: null
+
+[2021-06-23 15:25:31] 
+SEVERE: ERROR:
+java.lang.Exception: Can not find sht file
+	at com.raqsoft.input.tag.InputTag.calcInput(Unknown Source:1548)
+	at com.raqsoft.input.tag.InputTag.doStartTag(Unknown Source:502)
+	at org.apache.jsp.reportJsp.sbData_jsp._jspService(sbData_jsp.java:403)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+	at org.apache.jasper.servlet.JspServlet._serviceJspFile(JspServlet.java:382)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:40001)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:711)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:460)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:387)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:315)
+	at com.jfinal.render.JspRender.render(JspRender.java:67)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:113)
+	at com.jfinal.ext.handler.UrlSkipHandler.handle(UrlSkipHandler.java:46)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:90)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:201)
+	at org.apache.catalina.core.StandardContextValve.__invoke(StandardContextValve.java:97)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:41002)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:364)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1629)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+[2021-06-23 15:25:39] 
+DEBUG: INPUT MAIN PATH : /WEB-INF/reportFiles
+
+[2021-06-23 15:25:39] 
+DEBUG: DFX MAIN PATH : null
+
+[2021-06-23 15:25:39] 
+DEBUG: DFX PATH : D:/IDEAProject/sosp-input/src/main/webapp/WEB-INF/reportFiles
+
+[2021-06-23 15:25:39] 
+DEBUG: noRemoteCache --- true
+
+[2021-06-23 15:25:39] 
+DEBUG: src file : gd.sht
+
+[2021-06-23 15:25:39] 
+DEBUG: find path 0 : D:\IDEAProject\sosp-input\src\main\webapp//WEB-INF/reportFiles
+
+[2021-06-23 15:25:39] 
+DEBUG: find path 1 : /WEB-INF/reportFiles
+
+[2021-06-23 15:25:39] 
+DEBUG: find path 2 : D:\IDEAProject\sosp-input\src\main\webapp//WEB-INF/reportFiles
+
+[2021-06-23 15:25:39] 
+DEBUG: find path 3 : /WEB-INF/reportFiles
+
+[2021-06-23 15:25:39] 
+DEBUG: find path 4 : D:\IDEAProject\sosp-input\src\main\webapp
+
+[2021-06-23 15:25:39] 
+DEBUG: skip web resource search.Path gd.sht does not start with a "/" character
+
+[2021-06-23 15:25:39] 
+DEBUG: No resource file located:/gd.sht
+
+[2021-06-23 15:25:39] 
+DEBUG: null
+
+[2021-06-23 15:25:39] 
+SEVERE: ERROR:
+java.lang.Exception: Can not find sht file
+	at com.raqsoft.input.tag.InputTag.calcInput(Unknown Source:1548)
+	at com.raqsoft.input.tag.InputTag.doStartTag(Unknown Source:502)
+	at org.apache.jsp.reportJsp.sbData_jsp._jspService(sbData_jsp.java:403)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+	at org.apache.jasper.servlet.JspServlet._serviceJspFile(JspServlet.java:382)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:40001)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:711)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:460)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:387)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:315)
+	at com.jfinal.render.JspRender.render(JspRender.java:67)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:113)
+	at com.jfinal.ext.handler.UrlSkipHandler.handle(UrlSkipHandler.java:46)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:90)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:201)
+	at org.apache.catalina.core.StandardContextValve.__invoke(StandardContextValve.java:97)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:41002)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:364)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1629)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+[2021-06-23 15:26:54] 
+DEBUG: INPUT MAIN PATH : /WEB-INF/reportFiles
+
+[2021-06-23 15:26:54] 
+DEBUG: DFX MAIN PATH : null
+
+[2021-06-23 15:26:54] 
+DEBUG: DFX PATH : D:/IDEAProject/sosp-input/src/main/webapp/WEB-INF/reportFiles
+
+[2021-06-23 15:26:54] 
+DEBUG: noRemoteCache --- true
+
+[2021-06-23 15:26:54] 
+DEBUG: src file : gd.sht
+
+[2021-06-23 15:26:54] 
+DEBUG: find path 0 : D:\IDEAProject\sosp-input\src\main\webapp//WEB-INF/reportFiles
+
+[2021-06-23 15:26:54] 
+DEBUG: find path 1 : /WEB-INF/reportFiles
+
+[2021-06-23 15:26:54] 
+DEBUG: find path 2 : D:\IDEAProject\sosp-input\src\main\webapp//WEB-INF/reportFiles
+
+[2021-06-23 15:26:54] 
+DEBUG: find path 3 : /WEB-INF/reportFiles
+
+[2021-06-23 15:26:54] 
+DEBUG: find path 4 : D:\IDEAProject\sosp-input\src\main\webapp
+
+[2021-06-23 15:26:54] 
+DEBUG: skip web resource search.Path gd.sht does not start with a "/" character
+
+[2021-06-23 15:26:54] 
+DEBUG: No resource file located:/gd.sht
+
+[2021-06-23 15:26:54] 
+DEBUG: null
+
+[2021-06-23 15:26:54] 
+SEVERE: ERROR:
+java.lang.Exception: Can not find sht file
+	at com.raqsoft.input.tag.InputTag.calcInput(Unknown Source:1548)
+	at com.raqsoft.input.tag.InputTag.doStartTag(Unknown Source:502)
+	at org.apache.jsp.reportJsp.sbData_jsp._jspService(sbData_jsp.java:403)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+	at org.apache.jasper.servlet.JspServlet._serviceJspFile(JspServlet.java:382)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:40001)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:711)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:460)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:387)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:315)
+	at com.jfinal.render.JspRender.render(JspRender.java:67)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:113)
+	at com.jfinal.ext.handler.UrlSkipHandler.handle(UrlSkipHandler.java:46)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:90)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:201)
+	at org.apache.catalina.core.StandardContextValve.__invoke(StandardContextValve.java:97)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:41002)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:364)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1629)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+[2021-06-23 15:27:09] 
+DEBUG: INPUT MAIN PATH : /WEB-INF/reportFiles
+
+[2021-06-23 15:27:09] 
+DEBUG: DFX MAIN PATH : null
+
+[2021-06-23 15:27:09] 
+DEBUG: DFX PATH : D:/IDEAProject/sosp-input/src/main/webapp/WEB-INF/reportFiles
+
+[2021-06-23 15:27:09] 
+DEBUG: noRemoteCache --- true
+
+[2021-06-23 15:27:09] 
+DEBUG: src file : ceshi1.sht
+
+[2021-06-23 15:27:09] 
+DEBUG: find path 0 : D:\IDEAProject\sosp-input\src\main\webapp//WEB-INF/reportFiles
+
+[2021-06-23 15:27:09] 
+DEBUG: find path 1 : /WEB-INF/reportFiles
+
+[2021-06-23 15:27:09] 
+DEBUG: find path 2 : D:\IDEAProject\sosp-input\src\main\webapp//WEB-INF/reportFiles
+
+[2021-06-23 15:27:09] 
+DEBUG: find path 3 : /WEB-INF/reportFiles
+
+[2021-06-23 15:27:09] 
+DEBUG: find path 4 : D:\IDEAProject\sosp-input\src\main\webapp
+
+[2021-06-23 15:27:09] 
+DEBUG: D:\IDEAProject\sosp-input\src\main\webapp\WEB-INF\reportFiles\ceshi1.sht
+
+[2021-06-23 15:27:09] 
+DEBUG: come dfx script row/col is 3/5
+
+[2021-06-23 15:27:09] 
+INFO: Sht get data begin:sg5
+
+[2021-06-23 15:27:14] 
+INFO: Sht get data begin:sg5
+
+[2021-06-23 15:27:14] 
+INFO: Sht calc begin:sg5
+
+[2021-06-23 15:27:14] 
+DEBUG: dealFieldName2......
+
+[2021-06-23 15:27:14] 
+DEBUG: rowRows : []
+
+[2021-06-23 15:27:14] 
+DEBUG: public dims : []
+
+[2021-06-23 15:27:14] 
+DEBUG: GRID table : [ds1] : a1	task_id	a2	a3	a4	a5	a6	a7
+5_1	5_2	5_3	5_4	5_5	5_6	5_7	5_8
+6_1	6_2	6_3	6_4	6_5	6_6	6_7	6_8
+7_1	7_2	7_3	7_4	7_5	7_6	7_7	7_8
+8_1	8_2	8_3	8_4	8_5	8_6	8_7	8_8
+9_1	9_2	9_3	9_4	9_5	9_6	9_7	9_8
+10_1	10_2	10_3	10_4	10_5	10_6	10_7	10_8
+11_1	11_2	11_3	11_4	11_5	11_6	11_7	11_8
+12_1	12_2	12_3	12_4	12_5	12_6	12_7	12_8
+13_1	13_2	13_3	13_4	13_5	13_6	13_7	13_8
+14_1	14_2	14_3	14_4	14_5	14_6	14_7	14_8
+
+
+[2021-06-23 15:27:14] 
+DEBUG: ----------------------------------
+
+[2021-06-23 15:27:14] 
+INFO: Sht calc end:sg5
+
+[2021-06-23 15:27:14] 
+INFO: Sht analyze begin:sg5
+
+[2021-06-23 15:27:14] 
+DEBUG: dealFieldName2......
+
+[2021-06-23 15:27:14] 
+DEBUG: rowRows : []
+
+[2021-06-23 15:27:14] 
+DEBUG: public dims : []
+
+[2021-06-23 15:27:14] 
+DEBUG: GRID table : [ds1] : a1	task_id	a2	a3	a4	a5	a6	a7
+5_1	5_2	5_3	5_4	5_5	5_6	5_7	5_8
+6_1	6_2	6_3	6_4	6_5	6_6	6_7	6_8
+7_1	7_2	7_3	7_4	7_5	7_6	7_7	7_8
+8_1	8_2	8_3	8_4	8_5	8_6	8_7	8_8
+9_1	9_2	9_3	9_4	9_5	9_6	9_7	9_8
+10_1	10_2	10_3	10_4	10_5	10_6	10_7	10_8
+11_1	11_2	11_3	11_4	11_5	11_6	11_7	11_8
+12_1	12_2	12_3	12_4	12_5	12_6	12_7	12_8
+13_1	13_2	13_3	13_4	13_5	13_6	13_7	13_8
+14_1	14_2	14_3	14_4	14_5	14_6	14_7	14_8
+
+
+[2021-06-23 15:27:14] 
+INFO: Sht analyze end:sg5
+
+[2021-06-23 15:27:14] 
+INFO: Sht HTML begin:sg5
+
+[2021-06-23 15:27:15] 
+DEBUG: [mkdir input cache dir:true]
+
+[2021-06-23 15:27:15] 
+DEBUG: CHARSET : UTF-8
+
+[2021-06-23 15:27:15] 
+DEBUG: [write ms :233]
+
+[2021-06-23 15:27:15] 
+INFO: Sht HTML first part end:sg5
+
+[2021-06-23 15:27:15] 
+DEBUG: CHARSET : UTF-8
+
+[2021-06-23 15:27:15] 
+DEBUG: CHARSET : UTF-8
+
+[2021-06-23 15:27:30] 
+DEBUG: CHARSET : UTF-8
+
+[2021-06-23 15:27:30] 
+DEBUG: [read ms :17]
+
+[2021-06-23 15:27:30] 
+DEBUG: sgid = sg5
+
+[2021-06-23 15:27:30] 
+DEBUG: obj = com.raqsoft.input.view.InputSessionObj@62c68ed7
+
+[2021-06-23 15:27:30] 
+DEBUG: submit data : {"sheet1":{"A1":"","B1":"","C1":"","A2":"","B2":"","C2":"","D2":"2021年7月","E2":"","F2":"","G2":"","H2":"单位：万元","A3":"","B3":"","C3":"","D3":"基准日存量余额(上年末)","E3":"本年预计存量压降额","F3":"本年预计增量净额","G3":"本年末预计余额","H3":" 备注","A4":"指标编码","B4":"任务id","C4":"栏      次","D4":"1","E4":"2","F4":"3","G4":"4","H4":"5","A5":"1","B5":"312","C5":"资金合计","D5":"1","E5":"","F5":"","G5":"","H5":"","A6":"2","B6":"312","C6":"一、应收账款小计","D6":"1","E6":"","F6":"","G6":"","H6":"","A7":"3","B7":"312","C7":"  （一）1年以内（含1年）应收账款","D7":"1","E7":"","F7":"","G7":"","H7":"","A8":"4","B8":"312","C8":"  （二）1年以上应收账款","D8":"1","E8":"","F8":"","G8":"","H8":"","A9":"5","B9":"312","C9":"二、存货小计","D9":"1","E9":"","F9":"","G9":"","H9":"","A10":"6","B10":"312","C10":"   其中：房地产存货","D10":"1","E10":"","F10":"","G10":"","H10":"","A11":"7","B11":"312","C11":"         工程施工（已完工未结算款）","D11":"1","E11":"","F11":"","G11":"","H11":"","A12":"8","B12":"312","C12":"         原油、成品油存货","D12":"1","E12":"","F12":"","G12":"","H12":"","A13":"9","B13":"312","C13":"         有色冶金存货","D13":"1","E13":"","F13":"","G13":"","H13":"","A14":"10","B14":"312","C14":"   其中：非正常存货","D14":"1","E14":"","F14":"","G14":"","H14":""}}
+
+[2021-06-23 15:27:30] 
+DEBUG: input submit param list count : 7
+
+[2021-06-23 15:27:30] 
+DEBUG: go dfx script row/col is 6/2
+
+[2021-06-23 15:27:31] 
+DEBUG: Auto insert, preparing insert records: insert into cwss_ljyk_jzr (task_id, a1, a2, a3, a4, a5, a6, a7 ) values ( ?, ?, ?, ?, ?, ?, ?, ? )
+
+[2021-06-23 15:27:31] 
+DEBUG: come dfx script row/col is 3/5
+
+[2021-06-23 15:27:31] 
+INFO: Sht get data begin:sg5
+
+[2021-06-23 15:27:32] 
+DEBUG: [write ms :5]
+
+[2021-06-23 15:27:32] 
+INFO: refreshed cache:sg5
+
+[2021-06-23 15:27:36] 
+DEBUG: INPUT MAIN PATH : /WEB-INF/reportFiles
+
+[2021-06-23 15:27:36] 
+DEBUG: DFX MAIN PATH : null
+
+[2021-06-23 15:27:36] 
+DEBUG: DFX PATH : D:/IDEAProject/sosp-input/src/main/webapp/WEB-INF/reportFiles
+
+[2021-06-23 15:27:36] 
+DEBUG: noRemoteCache --- true
+
+[2021-06-23 15:27:36] 
+DEBUG: src file : ceshi1.sht
+
+[2021-06-23 15:27:36] 
+DEBUG: find path 0 : D:\IDEAProject\sosp-input\src\main\webapp//WEB-INF/reportFiles
+
+[2021-06-23 15:27:36] 
+DEBUG: find path 1 : /WEB-INF/reportFiles
+
+[2021-06-23 15:27:36] 
+DEBUG: find path 2 : D:\IDEAProject\sosp-input\src\main\webapp//WEB-INF/reportFiles
+
+[2021-06-23 15:27:36] 
+DEBUG: find path 3 : /WEB-INF/reportFiles
+
+[2021-06-23 15:27:36] 
+DEBUG: find path 4 : D:\IDEAProject\sosp-input\src\main\webapp
+
+[2021-06-23 15:27:36] 
+DEBUG: D:\IDEAProject\sosp-input\src\main\webapp\WEB-INF\reportFiles\ceshi1.sht
+
+[2021-06-23 15:27:36] 
+DEBUG: come dfx script row/col is 3/5
+
+[2021-06-23 15:27:36] 
+INFO: Sht get data begin:sg6
+
+[2021-06-23 15:27:37] 
+INFO: Sht get data begin:sg6
+
+[2021-06-23 15:27:37] 
+INFO: Sht calc begin:sg6
+
+[2021-06-23 15:27:37] 
+DEBUG: dealFieldName2......
+
+[2021-06-23 15:27:37] 
+DEBUG: rowRows : []
+
+[2021-06-23 15:27:37] 
+DEBUG: public dims : []
+
+[2021-06-23 15:27:37] 
+DEBUG: GRID table : [ds1] : a1	task_id	a2	a3	a4	a5	a6	a7
+5_1	5_2	5_3	5_4	5_5	5_6	5_7	5_8
+6_1	6_2	6_3	6_4	6_5	6_6	6_7	6_8
+7_1	7_2	7_3	7_4	7_5	7_6	7_7	7_8
+8_1	8_2	8_3	8_4	8_5	8_6	8_7	8_8
+9_1	9_2	9_3	9_4	9_5	9_6	9_7	9_8
+10_1	10_2	10_3	10_4	10_5	10_6	10_7	10_8
+11_1	11_2	11_3	11_4	11_5	11_6	11_7	11_8
+12_1	12_2	12_3	12_4	12_5	12_6	12_7	12_8
+13_1	13_2	13_3	13_4	13_5	13_6	13_7	13_8
+14_1	14_2	14_3	14_4	14_5	14_6	14_7	14_8
+
+
+[2021-06-23 15:27:37] 
+DEBUG: ----------------------------------
+
+[2021-06-23 15:27:37] 
+INFO: Sht calc end:sg6
+
+[2021-06-23 15:27:37] 
+INFO: Sht analyze begin:sg6
+
+[2021-06-23 15:27:37] 
+DEBUG: dealFieldName2......
+
+[2021-06-23 15:27:37] 
+DEBUG: rowRows : []
+
+[2021-06-23 15:27:37] 
+DEBUG: public dims : []
+
+[2021-06-23 15:27:37] 
+DEBUG: GRID table : [ds1] : a1	task_id	a2	a3	a4	a5	a6	a7
+5_1	5_2	5_3	5_4	5_5	5_6	5_7	5_8
+6_1	6_2	6_3	6_4	6_5	6_6	6_7	6_8
+7_1	7_2	7_3	7_4	7_5	7_6	7_7	7_8
+8_1	8_2	8_3	8_4	8_5	8_6	8_7	8_8
+9_1	9_2	9_3	9_4	9_5	9_6	9_7	9_8
+10_1	10_2	10_3	10_4	10_5	10_6	10_7	10_8
+11_1	11_2	11_3	11_4	11_5	11_6	11_7	11_8
+12_1	12_2	12_3	12_4	12_5	12_6	12_7	12_8
+13_1	13_2	13_3	13_4	13_5	13_6	13_7	13_8
+14_1	14_2	14_3	14_4	14_5	14_6	14_7	14_8
+
+
+[2021-06-23 15:27:37] 
+INFO: Sht analyze end:sg6
+
+[2021-06-23 15:27:37] 
+INFO: Sht HTML begin:sg6
+
+[2021-06-23 15:27:37] 
+DEBUG: [write ms :5]
+
+[2021-06-23 15:27:37] 
+INFO: Sht HTML first part end:sg6
+
+[2021-06-23 15:27:37] 
+DEBUG: CHARSET : UTF-8
+
+[2021-06-23 15:27:37] 
+DEBUG: CHARSET : UTF-8
+
+[2021-06-23 15:27:37] 
+DEBUG: CHARSET : UTF-8
+
+[2021-06-23 15:27:43] 
+DEBUG: INPUT MAIN PATH : /WEB-INF/reportFiles
+
+[2021-06-23 15:27:43] 
+DEBUG: DFX MAIN PATH : null
+
+[2021-06-23 15:27:43] 
+DEBUG: DFX PATH : D:/IDEAProject/sosp-input/src/main/webapp/WEB-INF/reportFiles
+
+[2021-06-23 15:27:43] 
+DEBUG: noRemoteCache --- true
+
+[2021-06-23 15:27:43] 
+DEBUG: src file : ceshi1.sht
+
+[2021-06-23 15:27:43] 
+DEBUG: find path 0 : D:\IDEAProject\sosp-input\src\main\webapp//WEB-INF/reportFiles
+
+[2021-06-23 15:27:43] 
+DEBUG: find path 1 : /WEB-INF/reportFiles
+
+[2021-06-23 15:27:43] 
+DEBUG: find path 2 : D:\IDEAProject\sosp-input\src\main\webapp//WEB-INF/reportFiles
+
+[2021-06-23 15:27:43] 
+DEBUG: find path 3 : /WEB-INF/reportFiles
+
+[2021-06-23 15:27:43] 
+DEBUG: find path 4 : D:\IDEAProject\sosp-input\src\main\webapp
+
+[2021-06-23 15:27:43] 
+DEBUG: D:\IDEAProject\sosp-input\src\main\webapp\WEB-INF\reportFiles\ceshi1.sht
+
+[2021-06-23 15:27:43] 
+DEBUG: come dfx script row/col is 3/5
+
+[2021-06-23 15:27:43] 
+INFO: Sht get data begin:sg7
+
+[2021-06-23 15:27:43] 
+INFO: Sht get data begin:sg7
+
+[2021-06-23 15:27:43] 
+INFO: Sht calc begin:sg7
+
+[2021-06-23 15:27:43] 
+DEBUG: dealFieldName2......
+
+[2021-06-23 15:27:43] 
+DEBUG: rowRows : []
+
+[2021-06-23 15:27:43] 
+DEBUG: public dims : []
+
+[2021-06-23 15:27:43] 
+DEBUG: GRID table : [ds1] : a1	task_id	a2	a3	a4	a5	a6	a7
+5_1	5_2	5_3	5_4	5_5	5_6	5_7	5_8
+6_1	6_2	6_3	6_4	6_5	6_6	6_7	6_8
+7_1	7_2	7_3	7_4	7_5	7_6	7_7	7_8
+8_1	8_2	8_3	8_4	8_5	8_6	8_7	8_8
+9_1	9_2	9_3	9_4	9_5	9_6	9_7	9_8
+10_1	10_2	10_3	10_4	10_5	10_6	10_7	10_8
+11_1	11_2	11_3	11_4	11_5	11_6	11_7	11_8
+12_1	12_2	12_3	12_4	12_5	12_6	12_7	12_8
+13_1	13_2	13_3	13_4	13_5	13_6	13_7	13_8
+14_1	14_2	14_3	14_4	14_5	14_6	14_7	14_8
+
+
+[2021-06-23 15:27:43] 
+DEBUG: ----------------------------------
+
+[2021-06-23 15:27:43] 
+INFO: Sht calc end:sg7
+
+[2021-06-23 15:27:43] 
+INFO: Sht analyze begin:sg7
+
+[2021-06-23 15:27:43] 
+DEBUG: dealFieldName2......
+
+[2021-06-23 15:27:43] 
+DEBUG: rowRows : []
+
+[2021-06-23 15:27:43] 
+DEBUG: public dims : []
+
+[2021-06-23 15:27:43] 
+DEBUG: GRID table : [ds1] : a1	task_id	a2	a3	a4	a5	a6	a7
+5_1	5_2	5_3	5_4	5_5	5_6	5_7	5_8
+6_1	6_2	6_3	6_4	6_5	6_6	6_7	6_8
+7_1	7_2	7_3	7_4	7_5	7_6	7_7	7_8
+8_1	8_2	8_3	8_4	8_5	8_6	8_7	8_8
+9_1	9_2	9_3	9_4	9_5	9_6	9_7	9_8
+10_1	10_2	10_3	10_4	10_5	10_6	10_7	10_8
+11_1	11_2	11_3	11_4	11_5	11_6	11_7	11_8
+12_1	12_2	12_3	12_4	12_5	12_6	12_7	12_8
+13_1	13_2	13_3	13_4	13_5	13_6	13_7	13_8
+14_1	14_2	14_3	14_4	14_5	14_6	14_7	14_8
+
+
+[2021-06-23 15:27:43] 
+INFO: Sht analyze end:sg7
+
+[2021-06-23 15:27:43] 
+INFO: Sht HTML begin:sg7
+
+[2021-06-23 15:27:43] 
+DEBUG: [write ms :6]
+
+[2021-06-23 15:27:43] 
+INFO: Sht HTML first part end:sg7
+
+[2021-06-23 15:27:43] 
+DEBUG: CHARSET : UTF-8
+
+[2021-06-23 15:27:43] 
+DEBUG: CHARSET : UTF-8
+
+[2021-06-23 15:27:43] 
+DEBUG: CHARSET : UTF-8
+
+[2021-06-23 15:27:53] 
+DEBUG: INPUT MAIN PATH : /WEB-INF/reportFiles
+
+[2021-06-23 15:27:53] 
+DEBUG: DFX MAIN PATH : null
+
+[2021-06-23 15:27:53] 
+DEBUG: DFX PATH : D:/IDEAProject/sosp-input/src/main/webapp/WEB-INF/reportFiles
+
+[2021-06-23 15:27:53] 
+DEBUG: noRemoteCache --- true
+
+[2021-06-23 15:27:53] 
+DEBUG: src file : ceshi1.sht
+
+[2021-06-23 15:27:53] 
+DEBUG: find path 0 : D:\IDEAProject\sosp-input\src\main\webapp//WEB-INF/reportFiles
+
+[2021-06-23 15:27:53] 
+DEBUG: find path 1 : /WEB-INF/reportFiles
+
+[2021-06-23 15:27:53] 
+DEBUG: find path 2 : D:\IDEAProject\sosp-input\src\main\webapp//WEB-INF/reportFiles
+
+[2021-06-23 15:27:53] 
+DEBUG: find path 3 : /WEB-INF/reportFiles
+
+[2021-06-23 15:27:53] 
+DEBUG: find path 4 : D:\IDEAProject\sosp-input\src\main\webapp
+
+[2021-06-23 15:27:53] 
+DEBUG: D:\IDEAProject\sosp-input\src\main\webapp\WEB-INF\reportFiles\ceshi1.sht
+
+[2021-06-23 15:27:53] 
+DEBUG: come dfx script row/col is 3/5
+
+[2021-06-23 15:27:53] 
+INFO: Sht get data begin:sg8
+
+[2021-06-23 15:27:54] 
+INFO: Sht get data begin:sg8
+
+[2021-06-23 15:27:54] 
+INFO: Sht calc begin:sg8
+
+[2021-06-23 15:27:54] 
+DEBUG: dealFieldName2......
+
+[2021-06-23 15:27:54] 
+DEBUG: rowRows : []
+
+[2021-06-23 15:27:54] 
+DEBUG: public dims : []
+
+[2021-06-23 15:27:54] 
+DEBUG: GRID table : [ds1] : a1	task_id	a2	a3	a4	a5	a6	a7
+5_1	5_2	5_3	5_4	5_5	5_6	5_7	5_8
+6_1	6_2	6_3	6_4	6_5	6_6	6_7	6_8
+7_1	7_2	7_3	7_4	7_5	7_6	7_7	7_8
+8_1	8_2	8_3	8_4	8_5	8_6	8_7	8_8
+9_1	9_2	9_3	9_4	9_5	9_6	9_7	9_8
+10_1	10_2	10_3	10_4	10_5	10_6	10_7	10_8
+11_1	11_2	11_3	11_4	11_5	11_6	11_7	11_8
+12_1	12_2	12_3	12_4	12_5	12_6	12_7	12_8
+13_1	13_2	13_3	13_4	13_5	13_6	13_7	13_8
+14_1	14_2	14_3	14_4	14_5	14_6	14_7	14_8
+
+
+[2021-06-23 15:27:54] 
+DEBUG: ----------------------------------
+
+[2021-06-23 15:27:54] 
+INFO: Sht calc end:sg8
+
+[2021-06-23 15:27:54] 
+INFO: Sht analyze begin:sg8
+
+[2021-06-23 15:27:54] 
+DEBUG: dealFieldName2......
+
+[2021-06-23 15:27:54] 
+DEBUG: rowRows : []
+
+[2021-06-23 15:27:54] 
+DEBUG: public dims : []
+
+[2021-06-23 15:27:54] 
+DEBUG: GRID table : [ds1] : a1	task_id	a2	a3	a4	a5	a6	a7
+5_1	5_2	5_3	5_4	5_5	5_6	5_7	5_8
+6_1	6_2	6_3	6_4	6_5	6_6	6_7	6_8
+7_1	7_2	7_3	7_4	7_5	7_6	7_7	7_8
+8_1	8_2	8_3	8_4	8_5	8_6	8_7	8_8
+9_1	9_2	9_3	9_4	9_5	9_6	9_7	9_8
+10_1	10_2	10_3	10_4	10_5	10_6	10_7	10_8
+11_1	11_2	11_3	11_4	11_5	11_6	11_7	11_8
+12_1	12_2	12_3	12_4	12_5	12_6	12_7	12_8
+13_1	13_2	13_3	13_4	13_5	13_6	13_7	13_8
+14_1	14_2	14_3	14_4	14_5	14_6	14_7	14_8
+
+
+[2021-06-23 15:27:54] 
+INFO: Sht analyze end:sg8
+
+[2021-06-23 15:27:54] 
+INFO: Sht HTML begin:sg8
+
+[2021-06-23 15:27:54] 
+DEBUG: [write ms :6]
+
+[2021-06-23 15:27:54] 
+INFO: Sht HTML first part end:sg8
+
+[2021-06-23 15:27:54] 
+DEBUG: CHARSET : UTF-8
+
+[2021-06-23 15:27:54] 
+DEBUG: CHARSET : UTF-8
+
+[2021-06-23 15:27:54] 
+DEBUG: CHARSET : UTF-8
+
+[2021-06-23 15:35:38] 
+DEBUG: INPUT MAIN PATH : /WEB-INF/reportFiles
+
+[2021-06-23 15:35:38] 
+DEBUG: DFX MAIN PATH : null
+
+[2021-06-23 15:35:38] 
+DEBUG: DFX PATH : D:/IDEAProject/sosp-input/src/main/webapp/WEB-INF/reportFiles
+
+[2021-06-23 15:35:38] 
+DEBUG: noRemoteCache --- true
+
+[2021-06-23 15:35:38] 
+DEBUG: src file : ceshi1.sht
+
+[2021-06-23 15:35:38] 
+DEBUG: find path 0 : D:\IDEAProject\sosp-input\src\main\webapp//WEB-INF/reportFiles
+
+[2021-06-23 15:35:38] 
+DEBUG: find path 1 : /WEB-INF/reportFiles
+
+[2021-06-23 15:35:38] 
+DEBUG: find path 2 : D:\IDEAProject\sosp-input\src\main\webapp//WEB-INF/reportFiles
+
+[2021-06-23 15:35:38] 
+DEBUG: find path 3 : /WEB-INF/reportFiles
+
+[2021-06-23 15:35:38] 
+DEBUG: find path 4 : D:\IDEAProject\sosp-input\src\main\webapp
+
+[2021-06-23 15:35:38] 
+DEBUG: D:\IDEAProject\sosp-input\src\main\webapp\WEB-INF\reportFiles\ceshi1.sht
+
+[2021-06-23 15:35:38] 
+DEBUG: come dfx script row/col is 3/5
+
+[2021-06-23 15:35:38] 
+INFO: Sht get data begin:sg9
+
+[2021-06-23 15:35:38] 
+INFO: Sht get data begin:sg9
+
+[2021-06-23 15:35:38] 
+INFO: Sht calc begin:sg9
+
+[2021-06-23 15:35:38] 
+DEBUG: dealFieldName2......
+
+[2021-06-23 15:35:38] 
+DEBUG: rowRows : []
+
+[2021-06-23 15:35:38] 
+DEBUG: public dims : []
+
+[2021-06-23 15:35:38] 
+DEBUG: GRID table : [ds1] : a1	task_id	a2	a3	a4	a5	a6	a7
+5_1	5_2	5_3	5_4	5_5	5_6	5_7	5_8
+6_1	6_2	6_3	6_4	6_5	6_6	6_7	6_8
+7_1	7_2	7_3	7_4	7_5	7_6	7_7	7_8
+8_1	8_2	8_3	8_4	8_5	8_6	8_7	8_8
+9_1	9_2	9_3	9_4	9_5	9_6	9_7	9_8
+10_1	10_2	10_3	10_4	10_5	10_6	10_7	10_8
+11_1	11_2	11_3	11_4	11_5	11_6	11_7	11_8
+12_1	12_2	12_3	12_4	12_5	12_6	12_7	12_8
+13_1	13_2	13_3	13_4	13_5	13_6	13_7	13_8
+14_1	14_2	14_3	14_4	14_5	14_6	14_7	14_8
+
+
+[2021-06-23 15:35:38] 
+DEBUG: ----------------------------------
+
+[2021-06-23 15:35:38] 
+INFO: Sht calc end:sg9
+
+[2021-06-23 15:35:38] 
+INFO: Sht analyze begin:sg9
+
+[2021-06-23 15:35:38] 
+DEBUG: dealFieldName2......
+
+[2021-06-23 15:35:38] 
+DEBUG: rowRows : []
+
+[2021-06-23 15:35:38] 
+DEBUG: public dims : []
+
+[2021-06-23 15:35:38] 
+DEBUG: GRID table : [ds1] : a1	task_id	a2	a3	a4	a5	a6	a7
+5_1	5_2	5_3	5_4	5_5	5_6	5_7	5_8
+6_1	6_2	6_3	6_4	6_5	6_6	6_7	6_8
+7_1	7_2	7_3	7_4	7_5	7_6	7_7	7_8
+8_1	8_2	8_3	8_4	8_5	8_6	8_7	8_8
+9_1	9_2	9_3	9_4	9_5	9_6	9_7	9_8
+10_1	10_2	10_3	10_4	10_5	10_6	10_7	10_8
+11_1	11_2	11_3	11_4	11_5	11_6	11_7	11_8
+12_1	12_2	12_3	12_4	12_5	12_6	12_7	12_8
+13_1	13_2	13_3	13_4	13_5	13_6	13_7	13_8
+14_1	14_2	14_3	14_4	14_5	14_6	14_7	14_8
+
+
+[2021-06-23 15:35:38] 
+INFO: Sht analyze end:sg9
+
+[2021-06-23 15:35:38] 
+INFO: Sht HTML begin:sg9
+
+[2021-06-23 15:35:39] 
+DEBUG: [write ms :3]
+
+[2021-06-23 15:35:39] 
+INFO: Sht HTML first part end:sg9
+
+[2021-06-23 15:35:39] 
+DEBUG: CHARSET : UTF-8
+
+[2021-06-23 15:35:39] 
+DEBUG: CHARSET : UTF-8
+
+[2021-06-23 15:35:39] 
+DEBUG: CHARSET : UTF-8
+
+[2021-06-23 15:36:42] 
+DEBUG: INPUT MAIN PATH : /WEB-INF/reportFiles
+
+[2021-06-23 15:36:42] 
+DEBUG: DFX MAIN PATH : null
+
+[2021-06-23 15:36:42] 
+DEBUG: DFX PATH : D:/IDEAProject/sosp-input/src/main/webapp/WEB-INF/reportFiles
+
+[2021-06-23 15:36:42] 
+DEBUG: noRemoteCache --- true
+
+[2021-06-23 15:36:42] 
+DEBUG: src file : ceshi1.sht
+
+[2021-06-23 15:36:42] 
+DEBUG: find path 0 : D:\IDEAProject\sosp-input\src\main\webapp//WEB-INF/reportFiles
+
+[2021-06-23 15:36:42] 
+DEBUG: find path 1 : /WEB-INF/reportFiles
+
+[2021-06-23 15:36:42] 
+DEBUG: find path 2 : D:\IDEAProject\sosp-input\src\main\webapp//WEB-INF/reportFiles
+
+[2021-06-23 15:36:42] 
+DEBUG: find path 3 : /WEB-INF/reportFiles
+
+[2021-06-23 15:36:42] 
+DEBUG: find path 4 : D:\IDEAProject\sosp-input\src\main\webapp
+
+[2021-06-23 15:36:42] 
+DEBUG: D:\IDEAProject\sosp-input\src\main\webapp\WEB-INF\reportFiles\ceshi1.sht
+
+[2021-06-23 15:36:42] 
+DEBUG: come dfx script row/col is 3/5
+
+[2021-06-23 15:36:42] 
+INFO: Sht get data begin:sg10
+
+[2021-06-23 15:36:42] 
+INFO: Sht get data begin:sg10
+
+[2021-06-23 15:36:42] 
+INFO: Sht calc begin:sg10
+
+[2021-06-23 15:36:42] 
+DEBUG: dealFieldName2......
+
+[2021-06-23 15:36:42] 
+DEBUG: rowRows : []
+
+[2021-06-23 15:36:42] 
+DEBUG: public dims : []
+
+[2021-06-23 15:36:42] 
+DEBUG: GRID table : [ds1] : a1	task_id	a2	a3	a4	a5	a6	a7
+5_1	5_2	5_3	5_4	5_5	5_6	5_7	5_8
+6_1	6_2	6_3	6_4	6_5	6_6	6_7	6_8
+7_1	7_2	7_3	7_4	7_5	7_6	7_7	7_8
+8_1	8_2	8_3	8_4	8_5	8_6	8_7	8_8
+9_1	9_2	9_3	9_4	9_5	9_6	9_7	9_8
+10_1	10_2	10_3	10_4	10_5	10_6	10_7	10_8
+11_1	11_2	11_3	11_4	11_5	11_6	11_7	11_8
+12_1	12_2	12_3	12_4	12_5	12_6	12_7	12_8
+13_1	13_2	13_3	13_4	13_5	13_6	13_7	13_8
+14_1	14_2	14_3	14_4	14_5	14_6	14_7	14_8
+
+
+[2021-06-23 15:36:42] 
+DEBUG: ----------------------------------
+
+[2021-06-23 15:36:42] 
+INFO: Sht calc end:sg10
+
+[2021-06-23 15:36:42] 
+INFO: Sht analyze begin:sg10
+
+[2021-06-23 15:36:42] 
+DEBUG: dealFieldName2......
+
+[2021-06-23 15:36:42] 
+DEBUG: rowRows : []
+
+[2021-06-23 15:36:42] 
+DEBUG: public dims : []
+
+[2021-06-23 15:36:42] 
+DEBUG: GRID table : [ds1] : a1	task_id	a2	a3	a4	a5	a6	a7
+5_1	5_2	5_3	5_4	5_5	5_6	5_7	5_8
+6_1	6_2	6_3	6_4	6_5	6_6	6_7	6_8
+7_1	7_2	7_3	7_4	7_5	7_6	7_7	7_8
+8_1	8_2	8_3	8_4	8_5	8_6	8_7	8_8
+9_1	9_2	9_3	9_4	9_5	9_6	9_7	9_8
+10_1	10_2	10_3	10_4	10_5	10_6	10_7	10_8
+11_1	11_2	11_3	11_4	11_5	11_6	11_7	11_8
+12_1	12_2	12_3	12_4	12_5	12_6	12_7	12_8
+13_1	13_2	13_3	13_4	13_5	13_6	13_7	13_8
+14_1	14_2	14_3	14_4	14_5	14_6	14_7	14_8
+
+
+[2021-06-23 15:36:42] 
+INFO: Sht analyze end:sg10
+
+[2021-06-23 15:36:42] 
+INFO: Sht HTML begin:sg10
+
+[2021-06-23 15:36:42] 
+DEBUG: [write ms :5]
+
+[2021-06-23 15:36:42] 
+INFO: Sht HTML first part end:sg10
+
+[2021-06-23 15:36:42] 
+DEBUG: CHARSET : UTF-8
+
+[2021-06-23 15:36:42] 
+DEBUG: CHARSET : UTF-8
+
+[2021-06-23 15:36:42] 
+DEBUG: CHARSET : UTF-8
+
+[2021-06-23 15:37:06] 
+DEBUG: CHARSET : UTF-8
+
+[2021-06-23 15:37:06] 
+DEBUG: [read ms :4]
+
+[2021-06-23 15:37:06] 
+DEBUG: sgid = sg10
+
+[2021-06-23 15:37:06] 
+DEBUG: obj = com.raqsoft.input.view.InputSessionObj@563842f9
+
+[2021-06-23 15:37:06] 
+DEBUG: submit data : {"sheet1":{"A1":"","B1":"","C1":"","A2":"","B2":"","C2":"","D2":"2021年7月","E2":"","F2":"","G2":"","H2":"单位：万元","A3":"","B3":"","C3":"","D3":"基准日存量余额(上年末)","E3":"本年预计存量压降额","F3":"本年预计增量净额","G3":"本年末预计余额","H3":" 备注","A4":"指标编码","B4":"任务id","C4":"栏      次","D4":"1","E4":"2","F4":"3","G4":"4","H4":"5","A5":"1","B5":"314","C5":"资金合计","D5":"2","E5":"","F5":"","G5":"","H5":"","A6":"2","B6":"314","C6":"一、应收账款小计","D6":"2","E6":"","F6":"","G6":"","H6":"","A7":"3","B7":"314","C7":"  （一）1年以内（含1年）应收账款","D7":"2","E7":"","F7":"","G7":"","H7":"","A8":"4","B8":"314","C8":"  （二）1年以上应收账款","D8":"2","E8":"","F8":"","G8":"","H8":"","A9":"5","B9":"314","C9":"二、存货小计","D9":"2","E9":"","F9":"","G9":"","H9":"","A10":"6","B10":"314","C10":"   其中：房地产存货","D10":"2","E10":"","F10":"","G10":"","H10":"","A11":"7","B11":"314","C11":"         工程施工（已完工未结算款）","D11":"2","E11":"","F11":"","G11":"","H11":"","A12":"8","B12":"314","C12":"         原油、成品油存货","D12":"2","E12":"","F12":"","G12":"","H12":"","A13":"9","B13":"314","C13":"         有色冶金存货","D13":"2","E13":"","F13":"","G13":"","H13":"","A14":"10","B14":"314","C14":"   其中：非正常存货","D14":"2","E14":"","F14":"","G14":"","H14":""}}
+
+[2021-06-23 15:37:06] 
+DEBUG: input submit param list count : 7
+
+[2021-06-23 15:37:06] 
+DEBUG: go dfx script row/col is 6/2
+
+[2021-06-23 15:37:07] 
+DEBUG: Auto insert, preparing insert records: insert into cwss_ljyk_jzr (task_id, a1, a2, a3, a4, a5, a6, a7 ) values ( ?, ?, ?, ?, ?, ?, ?, ? )
+
+[2021-06-23 15:37:07] 
+DEBUG: come dfx script row/col is 3/5
+
+[2021-06-23 15:37:07] 
+INFO: Sht get data begin:sg10
+
+[2021-06-23 15:37:08] 
+DEBUG: [write ms :3]
+
+[2021-06-23 15:37:08] 
+INFO: refreshed cache:sg10
+
+[2021-06-23 15:37:14] 
+DEBUG: INPUT MAIN PATH : /WEB-INF/reportFiles
+
+[2021-06-23 15:37:14] 
+DEBUG: DFX MAIN PATH : null
+
+[2021-06-23 15:37:14] 
+DEBUG: DFX PATH : D:/IDEAProject/sosp-input/src/main/webapp/WEB-INF/reportFiles
+
+[2021-06-23 15:37:14] 
+DEBUG: noRemoteCache --- true
+
+[2021-06-23 15:37:14] 
+DEBUG: src file : ceshi1.sht
+
+[2021-06-23 15:37:14] 
+DEBUG: find path 0 : D:\IDEAProject\sosp-input\src\main\webapp//WEB-INF/reportFiles
+
+[2021-06-23 15:37:14] 
+DEBUG: find path 1 : /WEB-INF/reportFiles
+
+[2021-06-23 15:37:14] 
+DEBUG: find path 2 : D:\IDEAProject\sosp-input\src\main\webapp//WEB-INF/reportFiles
+
+[2021-06-23 15:37:14] 
+DEBUG: find path 3 : /WEB-INF/reportFiles
+
+[2021-06-23 15:37:14] 
+DEBUG: find path 4 : D:\IDEAProject\sosp-input\src\main\webapp
+
+[2021-06-23 15:37:14] 
+DEBUG: D:\IDEAProject\sosp-input\src\main\webapp\WEB-INF\reportFiles\ceshi1.sht
+
+[2021-06-23 15:37:14] 
+DEBUG: come dfx script row/col is 3/5
+
+[2021-06-23 15:37:14] 
+INFO: Sht get data begin:sg11
+
+[2021-06-23 15:37:14] 
+INFO: Sht get data begin:sg11
+
+[2021-06-23 15:37:14] 
+INFO: Sht calc begin:sg11
+
+[2021-06-23 15:37:14] 
+DEBUG: dealFieldName2......
+
+[2021-06-23 15:37:14] 
+DEBUG: rowRows : []
+
+[2021-06-23 15:37:14] 
+DEBUG: public dims : []
+
+[2021-06-23 15:37:14] 
+DEBUG: GRID table : [ds1] : a1	task_id	a2	a3	a4	a5	a6	a7
+5_1	5_2	5_3	5_4	5_5	5_6	5_7	5_8
+6_1	6_2	6_3	6_4	6_5	6_6	6_7	6_8
+7_1	7_2	7_3	7_4	7_5	7_6	7_7	7_8
+8_1	8_2	8_3	8_4	8_5	8_6	8_7	8_8
+9_1	9_2	9_3	9_4	9_5	9_6	9_7	9_8
+10_1	10_2	10_3	10_4	10_5	10_6	10_7	10_8
+11_1	11_2	11_3	11_4	11_5	11_6	11_7	11_8
+12_1	12_2	12_3	12_4	12_5	12_6	12_7	12_8
+13_1	13_2	13_3	13_4	13_5	13_6	13_7	13_8
+14_1	14_2	14_3	14_4	14_5	14_6	14_7	14_8
+
+
+[2021-06-23 15:37:14] 
+DEBUG: ----------------------------------
+
+[2021-06-23 15:37:14] 
+INFO: Sht calc end:sg11
+
+[2021-06-23 15:37:14] 
+INFO: Sht analyze begin:sg11
+
+[2021-06-23 15:37:14] 
+DEBUG: dealFieldName2......
+
+[2021-06-23 15:37:14] 
+DEBUG: rowRows : []
+
+[2021-06-23 15:37:14] 
+DEBUG: public dims : []
+
+[2021-06-23 15:37:14] 
+DEBUG: GRID table : [ds1] : a1	task_id	a2	a3	a4	a5	a6	a7
+5_1	5_2	5_3	5_4	5_5	5_6	5_7	5_8
+6_1	6_2	6_3	6_4	6_5	6_6	6_7	6_8
+7_1	7_2	7_3	7_4	7_5	7_6	7_7	7_8
+8_1	8_2	8_3	8_4	8_5	8_6	8_7	8_8
+9_1	9_2	9_3	9_4	9_5	9_6	9_7	9_8
+10_1	10_2	10_3	10_4	10_5	10_6	10_7	10_8
+11_1	11_2	11_3	11_4	11_5	11_6	11_7	11_8
+12_1	12_2	12_3	12_4	12_5	12_6	12_7	12_8
+13_1	13_2	13_3	13_4	13_5	13_6	13_7	13_8
+14_1	14_2	14_3	14_4	14_5	14_6	14_7	14_8
+
+
+[2021-06-23 15:37:14] 
+INFO: Sht analyze end:sg11
+
+[2021-06-23 15:37:14] 
+INFO: Sht HTML begin:sg11
+
+[2021-06-23 15:37:14] 
+DEBUG: [write ms :4]
+
+[2021-06-23 15:37:14] 
+INFO: Sht HTML first part end:sg11
+
+[2021-06-23 15:37:14] 
+DEBUG: CHARSET : UTF-8
+
+[2021-06-23 15:37:14] 
+DEBUG: CHARSET : UTF-8
+
+[2021-06-23 15:37:15] 
+DEBUG: CHARSET : UTF-8
+
+[2021-06-23 15:38:01] 
+DEBUG: INPUT MAIN PATH : /WEB-INF/reportFiles
+
+[2021-06-23 15:38:01] 
+DEBUG: DFX MAIN PATH : null
+
+[2021-06-23 15:38:01] 
+DEBUG: DFX PATH : D:/IDEAProject/sosp-input/src/main/webapp/WEB-INF/reportFiles
+
+[2021-06-23 15:38:01] 
+DEBUG: noRemoteCache --- true
+
+[2021-06-23 15:38:01] 
+DEBUG: src file : ceshi1.sht
+
+[2021-06-23 15:38:01] 
+DEBUG: find path 0 : D:\IDEAProject\sosp-input\src\main\webapp//WEB-INF/reportFiles
+
+[2021-06-23 15:38:01] 
+DEBUG: find path 1 : /WEB-INF/reportFiles
+
+[2021-06-23 15:38:01] 
+DEBUG: find path 2 : D:\IDEAProject\sosp-input\src\main\webapp//WEB-INF/reportFiles
+
+[2021-06-23 15:38:01] 
+DEBUG: find path 3 : /WEB-INF/reportFiles
+
+[2021-06-23 15:38:01] 
+DEBUG: find path 4 : D:\IDEAProject\sosp-input\src\main\webapp
+
+[2021-06-23 15:38:01] 
+DEBUG: D:\IDEAProject\sosp-input\src\main\webapp\WEB-INF\reportFiles\ceshi1.sht
+
+[2021-06-23 15:38:01] 
+DEBUG: come dfx script row/col is 3/5
+
+[2021-06-23 15:38:01] 
+INFO: Sht get data begin:sg12
+
+[2021-06-23 15:38:01] 
+INFO: Sht get data begin:sg12
+
+[2021-06-23 15:38:01] 
+INFO: Sht calc begin:sg12
+
+[2021-06-23 15:38:01] 
+DEBUG: dealFieldName2......
+
+[2021-06-23 15:38:01] 
+DEBUG: rowRows : []
+
+[2021-06-23 15:38:01] 
+DEBUG: public dims : []
+
+[2021-06-23 15:38:01] 
+DEBUG: GRID table : [ds1] : a1	task_id	a2	a3	a4	a5	a6	a7
+5_1	5_2	5_3	5_4	5_5	5_6	5_7	5_8
+6_1	6_2	6_3	6_4	6_5	6_6	6_7	6_8
+7_1	7_2	7_3	7_4	7_5	7_6	7_7	7_8
+8_1	8_2	8_3	8_4	8_5	8_6	8_7	8_8
+9_1	9_2	9_3	9_4	9_5	9_6	9_7	9_8
+10_1	10_2	10_3	10_4	10_5	10_6	10_7	10_8
+11_1	11_2	11_3	11_4	11_5	11_6	11_7	11_8
+12_1	12_2	12_3	12_4	12_5	12_6	12_7	12_8
+13_1	13_2	13_3	13_4	13_5	13_6	13_7	13_8
+14_1	14_2	14_3	14_4	14_5	14_6	14_7	14_8
+
+
+[2021-06-23 15:38:01] 
+DEBUG: ----------------------------------
+
+[2021-06-23 15:38:01] 
+INFO: Sht calc end:sg12
+
+[2021-06-23 15:38:01] 
+INFO: Sht analyze begin:sg12
+
+[2021-06-23 15:38:01] 
+DEBUG: dealFieldName2......
+
+[2021-06-23 15:38:01] 
+DEBUG: rowRows : []
+
+[2021-06-23 15:38:01] 
+DEBUG: public dims : []
+
+[2021-06-23 15:38:01] 
+DEBUG: GRID table : [ds1] : a1	task_id	a2	a3	a4	a5	a6	a7
+5_1	5_2	5_3	5_4	5_5	5_6	5_7	5_8
+6_1	6_2	6_3	6_4	6_5	6_6	6_7	6_8
+7_1	7_2	7_3	7_4	7_5	7_6	7_7	7_8
+8_1	8_2	8_3	8_4	8_5	8_6	8_7	8_8
+9_1	9_2	9_3	9_4	9_5	9_6	9_7	9_8
+10_1	10_2	10_3	10_4	10_5	10_6	10_7	10_8
+11_1	11_2	11_3	11_4	11_5	11_6	11_7	11_8
+12_1	12_2	12_3	12_4	12_5	12_6	12_7	12_8
+13_1	13_2	13_3	13_4	13_5	13_6	13_7	13_8
+14_1	14_2	14_3	14_4	14_5	14_6	14_7	14_8
+
+
+[2021-06-23 15:38:01] 
+INFO: Sht analyze end:sg12
+
+[2021-06-23 15:38:01] 
+INFO: Sht HTML begin:sg12
+
+[2021-06-23 15:38:01] 
+DEBUG: [write ms :12]
+
+[2021-06-23 15:38:01] 
+INFO: Sht HTML first part end:sg12
+
+[2021-06-23 15:38:01] 
+DEBUG: CHARSET : UTF-8
+
+[2021-06-23 15:38:01] 
+DEBUG: CHARSET : UTF-8
+
+[2021-06-23 15:38:01] 
+DEBUG: CHARSET : UTF-8
+
+[2021-06-23 15:38:47] 
+DEBUG: INPUT MAIN PATH : /WEB-INF/reportFiles
+
+[2021-06-23 15:38:47] 
+DEBUG: DFX MAIN PATH : null
+
+[2021-06-23 15:38:47] 
+DEBUG: DFX PATH : D:/IDEAProject/sosp-input/src/main/webapp/WEB-INF/reportFiles
+
+[2021-06-23 15:38:47] 
+DEBUG: noRemoteCache --- true
+
+[2021-06-23 15:38:47] 
+DEBUG: src file : ceshi1.sht
+
+[2021-06-23 15:38:47] 
+DEBUG: find path 0 : D:\IDEAProject\sosp-input\src\main\webapp//WEB-INF/reportFiles
+
+[2021-06-23 15:38:47] 
+DEBUG: find path 1 : /WEB-INF/reportFiles
+
+[2021-06-23 15:38:47] 
+DEBUG: find path 2 : D:\IDEAProject\sosp-input\src\main\webapp//WEB-INF/reportFiles
+
+[2021-06-23 15:38:47] 
+DEBUG: find path 3 : /WEB-INF/reportFiles
+
+[2021-06-23 15:38:47] 
+DEBUG: find path 4 : D:\IDEAProject\sosp-input\src\main\webapp
+
+[2021-06-23 15:38:47] 
+DEBUG: D:\IDEAProject\sosp-input\src\main\webapp\WEB-INF\reportFiles\ceshi1.sht
+
+[2021-06-23 15:38:47] 
+DEBUG: come dfx script row/col is 3/5
+
+[2021-06-23 15:38:47] 
+INFO: Sht get data begin:sg13
+
+[2021-06-23 15:38:48] 
+INFO: Sht get data begin:sg13
+
+[2021-06-23 15:38:48] 
+INFO: Sht calc begin:sg13
+
+[2021-06-23 15:38:48] 
+DEBUG: dealFieldName2......
+
+[2021-06-23 15:38:48] 
+DEBUG: rowRows : []
+
+[2021-06-23 15:38:48] 
+DEBUG: public dims : []
+
+[2021-06-23 15:38:48] 
+DEBUG: GRID table : [ds1] : a1	task_id	a2	a3	a4	a5	a6	a7
+5_1	5_2	5_3	5_4	5_5	5_6	5_7	5_8
+6_1	6_2	6_3	6_4	6_5	6_6	6_7	6_8
+7_1	7_2	7_3	7_4	7_5	7_6	7_7	7_8
+8_1	8_2	8_3	8_4	8_5	8_6	8_7	8_8
+9_1	9_2	9_3	9_4	9_5	9_6	9_7	9_8
+10_1	10_2	10_3	10_4	10_5	10_6	10_7	10_8
+11_1	11_2	11_3	11_4	11_5	11_6	11_7	11_8
+12_1	12_2	12_3	12_4	12_5	12_6	12_7	12_8
+13_1	13_2	13_3	13_4	13_5	13_6	13_7	13_8
+14_1	14_2	14_3	14_4	14_5	14_6	14_7	14_8
+
+
+[2021-06-23 15:38:48] 
+DEBUG: ----------------------------------
+
+[2021-06-23 15:38:48] 
+INFO: Sht calc end:sg13
+
+[2021-06-23 15:38:48] 
+INFO: Sht analyze begin:sg13
+
+[2021-06-23 15:38:48] 
+DEBUG: dealFieldName2......
+
+[2021-06-23 15:38:48] 
+DEBUG: rowRows : []
+
+[2021-06-23 15:38:48] 
+DEBUG: public dims : []
+
+[2021-06-23 15:38:48] 
+DEBUG: GRID table : [ds1] : a1	task_id	a2	a3	a4	a5	a6	a7
+5_1	5_2	5_3	5_4	5_5	5_6	5_7	5_8
+6_1	6_2	6_3	6_4	6_5	6_6	6_7	6_8
+7_1	7_2	7_3	7_4	7_5	7_6	7_7	7_8
+8_1	8_2	8_3	8_4	8_5	8_6	8_7	8_8
+9_1	9_2	9_3	9_4	9_5	9_6	9_7	9_8
+10_1	10_2	10_3	10_4	10_5	10_6	10_7	10_8
+11_1	11_2	11_3	11_4	11_5	11_6	11_7	11_8
+12_1	12_2	12_3	12_4	12_5	12_6	12_7	12_8
+13_1	13_2	13_3	13_4	13_5	13_6	13_7	13_8
+14_1	14_2	14_3	14_4	14_5	14_6	14_7	14_8
+
+
+[2021-06-23 15:38:48] 
+INFO: Sht analyze end:sg13
+
+[2021-06-23 15:38:48] 
+INFO: Sht HTML begin:sg13
+
+[2021-06-23 15:38:48] 
+DEBUG: [write ms :3]
+
+[2021-06-23 15:38:48] 
+INFO: Sht HTML first part end:sg13
+
+[2021-06-23 15:38:48] 
+DEBUG: CHARSET : UTF-8
+
+[2021-06-23 15:38:48] 
+DEBUG: CHARSET : UTF-8
+
+[2021-06-23 15:38:48] 
+DEBUG: CHARSET : UTF-8
+
+[2021-06-23 15:38:55] 
+DEBUG: INPUT MAIN PATH : /WEB-INF/reportFiles
+
+[2021-06-23 15:38:55] 
+DEBUG: DFX MAIN PATH : null
+
+[2021-06-23 15:38:55] 
+DEBUG: DFX PATH : D:/IDEAProject/sosp-input/src/main/webapp/WEB-INF/reportFiles
+
+[2021-06-23 15:38:55] 
+DEBUG: noRemoteCache --- true
+
+[2021-06-23 15:38:55] 
+DEBUG: src file : ceshi1.sht
+
+[2021-06-23 15:38:55] 
+DEBUG: find path 0 : D:\IDEAProject\sosp-input\src\main\webapp//WEB-INF/reportFiles
+
+[2021-06-23 15:38:55] 
+DEBUG: find path 1 : /WEB-INF/reportFiles
+
+[2021-06-23 15:38:55] 
+DEBUG: find path 2 : D:\IDEAProject\sosp-input\src\main\webapp//WEB-INF/reportFiles
+
+[2021-06-23 15:38:55] 
+DEBUG: find path 3 : /WEB-INF/reportFiles
+
+[2021-06-23 15:38:55] 
+DEBUG: find path 4 : D:\IDEAProject\sosp-input\src\main\webapp
+
+[2021-06-23 15:38:55] 
+DEBUG: D:\IDEAProject\sosp-input\src\main\webapp\WEB-INF\reportFiles\ceshi1.sht
+
+[2021-06-23 15:38:55] 
+DEBUG: come dfx script row/col is 3/5
+
+[2021-06-23 15:38:55] 
+INFO: Sht get data begin:sg14
+
+[2021-06-23 15:38:55] 
+INFO: Sht get data begin:sg14
+
+[2021-06-23 15:38:55] 
+INFO: Sht calc begin:sg14
+
+[2021-06-23 15:38:55] 
+DEBUG: dealFieldName2......
+
+[2021-06-23 15:38:55] 
+DEBUG: rowRows : []
+
+[2021-06-23 15:38:55] 
+DEBUG: public dims : []
+
+[2021-06-23 15:38:55] 
+DEBUG: GRID table : [ds1] : a1	task_id	a2	a3	a4	a5	a6	a7
+5_1	5_2	5_3	5_4	5_5	5_6	5_7	5_8
+6_1	6_2	6_3	6_4	6_5	6_6	6_7	6_8
+7_1	7_2	7_3	7_4	7_5	7_6	7_7	7_8
+8_1	8_2	8_3	8_4	8_5	8_6	8_7	8_8
+9_1	9_2	9_3	9_4	9_5	9_6	9_7	9_8
+10_1	10_2	10_3	10_4	10_5	10_6	10_7	10_8
+11_1	11_2	11_3	11_4	11_5	11_6	11_7	11_8
+12_1	12_2	12_3	12_4	12_5	12_6	12_7	12_8
+13_1	13_2	13_3	13_4	13_5	13_6	13_7	13_8
+14_1	14_2	14_3	14_4	14_5	14_6	14_7	14_8
+
+
+[2021-06-23 15:38:55] 
+DEBUG: ----------------------------------
+
+[2021-06-23 15:38:55] 
+INFO: Sht calc end:sg14
+
+[2021-06-23 15:38:55] 
+INFO: Sht analyze begin:sg14
+
+[2021-06-23 15:38:55] 
+DEBUG: dealFieldName2......
+
+[2021-06-23 15:38:55] 
+DEBUG: rowRows : []
+
+[2021-06-23 15:38:55] 
+DEBUG: public dims : []
+
+[2021-06-23 15:38:55] 
+DEBUG: GRID table : [ds1] : a1	task_id	a2	a3	a4	a5	a6	a7
+5_1	5_2	5_3	5_4	5_5	5_6	5_7	5_8
+6_1	6_2	6_3	6_4	6_5	6_6	6_7	6_8
+7_1	7_2	7_3	7_4	7_5	7_6	7_7	7_8
+8_1	8_2	8_3	8_4	8_5	8_6	8_7	8_8
+9_1	9_2	9_3	9_4	9_5	9_6	9_7	9_8
+10_1	10_2	10_3	10_4	10_5	10_6	10_7	10_8
+11_1	11_2	11_3	11_4	11_5	11_6	11_7	11_8
+12_1	12_2	12_3	12_4	12_5	12_6	12_7	12_8
+13_1	13_2	13_3	13_4	13_5	13_6	13_7	13_8
+14_1	14_2	14_3	14_4	14_5	14_6	14_7	14_8
+
+
+[2021-06-23 15:38:55] 
+INFO: Sht analyze end:sg14
+
+[2021-06-23 15:38:55] 
+INFO: Sht HTML begin:sg14
+
+[2021-06-23 15:38:55] 
+DEBUG: [write ms :2]
+
+[2021-06-23 15:38:55] 
+INFO: Sht HTML first part end:sg14
+
+[2021-06-23 15:38:55] 
+DEBUG: CHARSET : UTF-8
+
+[2021-06-23 15:38:55] 
+DEBUG: CHARSET : UTF-8
+
+[2021-06-23 15:38:55] 
+DEBUG: CHARSET : UTF-8
+
+[2021-06-23 15:39:23] 
+DEBUG: INPUT MAIN PATH : /WEB-INF/reportFiles
+
+[2021-06-23 15:39:23] 
+DEBUG: DFX MAIN PATH : null
+
+[2021-06-23 15:39:23] 
+DEBUG: DFX PATH : D:/IDEAProject/sosp-input/src/main/webapp/WEB-INF/reportFiles
+
+[2021-06-23 15:39:23] 
+DEBUG: noRemoteCache --- true
+
+[2021-06-23 15:39:23] 
+DEBUG: src file : ceshi1.sht
+
+[2021-06-23 15:39:23] 
+DEBUG: find path 0 : D:\IDEAProject\sosp-input\src\main\webapp//WEB-INF/reportFiles
+
+[2021-06-23 15:39:23] 
+DEBUG: find path 1 : /WEB-INF/reportFiles
+
+[2021-06-23 15:39:23] 
+DEBUG: find path 2 : D:\IDEAProject\sosp-input\src\main\webapp//WEB-INF/reportFiles
+
+[2021-06-23 15:39:23] 
+DEBUG: find path 3 : /WEB-INF/reportFiles
+
+[2021-06-23 15:39:23] 
+DEBUG: find path 4 : D:\IDEAProject\sosp-input\src\main\webapp
+
+[2021-06-23 15:39:23] 
+DEBUG: D:\IDEAProject\sosp-input\src\main\webapp\WEB-INF\reportFiles\ceshi1.sht
+
+[2021-06-23 15:39:23] 
+DEBUG: come dfx script row/col is 3/5
+
+[2021-06-23 15:39:23] 
+INFO: Sht get data begin:sg15
+
+[2021-06-23 15:39:23] 
+INFO: Sht get data begin:sg15
+
+[2021-06-23 15:39:23] 
+INFO: Sht calc begin:sg15
+
+[2021-06-23 15:39:23] 
+DEBUG: dealFieldName2......
+
+[2021-06-23 15:39:23] 
+DEBUG: rowRows : []
+
+[2021-06-23 15:39:23] 
+DEBUG: public dims : []
+
+[2021-06-23 15:39:23] 
+DEBUG: GRID table : [ds1] : a1	task_id	a2	a3	a4	a5	a6	a7
+5_1	5_2	5_3	5_4	5_5	5_6	5_7	5_8
+6_1	6_2	6_3	6_4	6_5	6_6	6_7	6_8
+7_1	7_2	7_3	7_4	7_5	7_6	7_7	7_8
+8_1	8_2	8_3	8_4	8_5	8_6	8_7	8_8
+9_1	9_2	9_3	9_4	9_5	9_6	9_7	9_8
+10_1	10_2	10_3	10_4	10_5	10_6	10_7	10_8
+11_1	11_2	11_3	11_4	11_5	11_6	11_7	11_8
+12_1	12_2	12_3	12_4	12_5	12_6	12_7	12_8
+13_1	13_2	13_3	13_4	13_5	13_6	13_7	13_8
+14_1	14_2	14_3	14_4	14_5	14_6	14_7	14_8
+
+
+[2021-06-23 15:39:23] 
+DEBUG: ----------------------------------
+
+[2021-06-23 15:39:23] 
+INFO: Sht calc end:sg15
+
+[2021-06-23 15:39:23] 
+INFO: Sht analyze begin:sg15
+
+[2021-06-23 15:39:23] 
+DEBUG: dealFieldName2......
+
+[2021-06-23 15:39:23] 
+DEBUG: rowRows : []
+
+[2021-06-23 15:39:23] 
+DEBUG: public dims : []
+
+[2021-06-23 15:39:23] 
+DEBUG: GRID table : [ds1] : a1	task_id	a2	a3	a4	a5	a6	a7
+5_1	5_2	5_3	5_4	5_5	5_6	5_7	5_8
+6_1	6_2	6_3	6_4	6_5	6_6	6_7	6_8
+7_1	7_2	7_3	7_4	7_5	7_6	7_7	7_8
+8_1	8_2	8_3	8_4	8_5	8_6	8_7	8_8
+9_1	9_2	9_3	9_4	9_5	9_6	9_7	9_8
+10_1	10_2	10_3	10_4	10_5	10_6	10_7	10_8
+11_1	11_2	11_3	11_4	11_5	11_6	11_7	11_8
+12_1	12_2	12_3	12_4	12_5	12_6	12_7	12_8
+13_1	13_2	13_3	13_4	13_5	13_6	13_7	13_8
+14_1	14_2	14_3	14_4	14_5	14_6	14_7	14_8
+
+
+[2021-06-23 15:39:23] 
+INFO: Sht analyze end:sg15
+
+[2021-06-23 15:39:23] 
+INFO: Sht HTML begin:sg15
+
+[2021-06-23 15:39:23] 
+DEBUG: [write ms :2]
+
+[2021-06-23 15:39:23] 
+INFO: Sht HTML first part end:sg15
+
+[2021-06-23 15:39:23] 
+DEBUG: CHARSET : UTF-8
+
+[2021-06-23 15:39:23] 
+DEBUG: CHARSET : UTF-8
+
+[2021-06-23 15:39:23] 
+DEBUG: CHARSET : UTF-8
+
+[2021-06-23 15:39:49] 
+DEBUG: INPUT MAIN PATH : /WEB-INF/reportFiles
+
+[2021-06-23 15:39:49] 
+DEBUG: DFX MAIN PATH : null
+
+[2021-06-23 15:39:49] 
+DEBUG: DFX PATH : D:/IDEAProject/sosp-input/src/main/webapp/WEB-INF/reportFiles
+
+[2021-06-23 15:39:49] 
+DEBUG: noRemoteCache --- true
+
+[2021-06-23 15:39:49] 
+DEBUG: src file : ceshi1.sht
+
+[2021-06-23 15:39:49] 
+DEBUG: find path 0 : D:\IDEAProject\sosp-input\src\main\webapp//WEB-INF/reportFiles
+
+[2021-06-23 15:39:49] 
+DEBUG: find path 1 : /WEB-INF/reportFiles
+
+[2021-06-23 15:39:49] 
+DEBUG: find path 2 : D:\IDEAProject\sosp-input\src\main\webapp//WEB-INF/reportFiles
+
+[2021-06-23 15:39:49] 
+DEBUG: find path 3 : /WEB-INF/reportFiles
+
+[2021-06-23 15:39:49] 
+DEBUG: find path 4 : D:\IDEAProject\sosp-input\src\main\webapp
+
+[2021-06-23 15:39:49] 
+DEBUG: D:\IDEAProject\sosp-input\src\main\webapp\WEB-INF\reportFiles\ceshi1.sht
+
+[2021-06-23 15:39:49] 
+DEBUG: come dfx script row/col is 3/5
+
+[2021-06-23 15:39:49] 
+INFO: Sht get data begin:sg16
+
+[2021-06-23 15:39:50] 
+INFO: Sht get data begin:sg16
+
+[2021-06-23 15:39:50] 
+INFO: Sht calc begin:sg16
+
+[2021-06-23 15:39:50] 
+DEBUG: dealFieldName2......
+
+[2021-06-23 15:39:50] 
+DEBUG: rowRows : []
+
+[2021-06-23 15:39:50] 
+DEBUG: public dims : []
+
+[2021-06-23 15:39:50] 
+DEBUG: GRID table : [ds1] : a1	task_id	a2	a3	a4	a5	a6	a7
+5_1	5_2	5_3	5_4	5_5	5_6	5_7	5_8
+6_1	6_2	6_3	6_4	6_5	6_6	6_7	6_8
+7_1	7_2	7_3	7_4	7_5	7_6	7_7	7_8
+8_1	8_2	8_3	8_4	8_5	8_6	8_7	8_8
+9_1	9_2	9_3	9_4	9_5	9_6	9_7	9_8
+10_1	10_2	10_3	10_4	10_5	10_6	10_7	10_8
+11_1	11_2	11_3	11_4	11_5	11_6	11_7	11_8
+12_1	12_2	12_3	12_4	12_5	12_6	12_7	12_8
+13_1	13_2	13_3	13_4	13_5	13_6	13_7	13_8
+14_1	14_2	14_3	14_4	14_5	14_6	14_7	14_8
+
+
+[2021-06-23 15:39:50] 
+DEBUG: ----------------------------------
+
+[2021-06-23 15:39:50] 
+INFO: Sht calc end:sg16
+
+[2021-06-23 15:39:50] 
+INFO: Sht analyze begin:sg16
+
+[2021-06-23 15:39:50] 
+DEBUG: dealFieldName2......
+
+[2021-06-23 15:39:50] 
+DEBUG: rowRows : []
+
+[2021-06-23 15:39:50] 
+DEBUG: public dims : []
+
+[2021-06-23 15:39:50] 
+DEBUG: GRID table : [ds1] : a1	task_id	a2	a3	a4	a5	a6	a7
+5_1	5_2	5_3	5_4	5_5	5_6	5_7	5_8
+6_1	6_2	6_3	6_4	6_5	6_6	6_7	6_8
+7_1	7_2	7_3	7_4	7_5	7_6	7_7	7_8
+8_1	8_2	8_3	8_4	8_5	8_6	8_7	8_8
+9_1	9_2	9_3	9_4	9_5	9_6	9_7	9_8
+10_1	10_2	10_3	10_4	10_5	10_6	10_7	10_8
+11_1	11_2	11_3	11_4	11_5	11_6	11_7	11_8
+12_1	12_2	12_3	12_4	12_5	12_6	12_7	12_8
+13_1	13_2	13_3	13_4	13_5	13_6	13_7	13_8
+14_1	14_2	14_3	14_4	14_5	14_6	14_7	14_8
+
+
+[2021-06-23 15:39:50] 
+INFO: Sht analyze end:sg16
+
+[2021-06-23 15:39:50] 
+INFO: Sht HTML begin:sg16
+
+[2021-06-23 15:39:50] 
+DEBUG: [write ms :3]
+
+[2021-06-23 15:39:50] 
+INFO: Sht HTML first part end:sg16
+
+[2021-06-23 15:39:50] 
+DEBUG: CHARSET : UTF-8
+
+[2021-06-23 15:39:50] 
+DEBUG: CHARSET : UTF-8
+
+[2021-06-23 15:39:50] 
+DEBUG: CHARSET : UTF-8
+
+[2021-06-23 15:39:58] 
+DEBUG: INPUT MAIN PATH : /WEB-INF/reportFiles
+
+[2021-06-23 15:39:58] 
+DEBUG: DFX MAIN PATH : null
+
+[2021-06-23 15:39:58] 
+DEBUG: DFX PATH : D:/IDEAProject/sosp-input/src/main/webapp/WEB-INF/reportFiles
+
+[2021-06-23 15:39:58] 
+DEBUG: noRemoteCache --- true
+
+[2021-06-23 15:39:58] 
+DEBUG: src file : ceshi1.sht
+
+[2021-06-23 15:39:58] 
+DEBUG: find path 0 : D:\IDEAProject\sosp-input\src\main\webapp//WEB-INF/reportFiles
+
+[2021-06-23 15:39:58] 
+DEBUG: find path 1 : /WEB-INF/reportFiles
+
+[2021-06-23 15:39:58] 
+DEBUG: find path 2 : D:\IDEAProject\sosp-input\src\main\webapp//WEB-INF/reportFiles
+
+[2021-06-23 15:39:58] 
+DEBUG: find path 3 : /WEB-INF/reportFiles
+
+[2021-06-23 15:39:58] 
+DEBUG: find path 4 : D:\IDEAProject\sosp-input\src\main\webapp
+
+[2021-06-23 15:39:58] 
+DEBUG: D:\IDEAProject\sosp-input\src\main\webapp\WEB-INF\reportFiles\ceshi1.sht
+
+[2021-06-23 15:39:58] 
+DEBUG: come dfx script row/col is 3/5
+
+[2021-06-23 15:39:58] 
+INFO: Sht get data begin:sg17
+
+[2021-06-23 15:39:58] 
+INFO: Sht get data begin:sg17
+
+[2021-06-23 15:39:58] 
+INFO: Sht calc begin:sg17
+
+[2021-06-23 15:39:58] 
+DEBUG: dealFieldName2......
+
+[2021-06-23 15:39:58] 
+DEBUG: rowRows : []
+
+[2021-06-23 15:39:58] 
+DEBUG: public dims : []
+
+[2021-06-23 15:39:58] 
+DEBUG: GRID table : [ds1] : a1	task_id	a2	a3	a4	a5	a6	a7
+5_1	5_2	5_3	5_4	5_5	5_6	5_7	5_8
+6_1	6_2	6_3	6_4	6_5	6_6	6_7	6_8
+7_1	7_2	7_3	7_4	7_5	7_6	7_7	7_8
+8_1	8_2	8_3	8_4	8_5	8_6	8_7	8_8
+9_1	9_2	9_3	9_4	9_5	9_6	9_7	9_8
+10_1	10_2	10_3	10_4	10_5	10_6	10_7	10_8
+11_1	11_2	11_3	11_4	11_5	11_6	11_7	11_8
+12_1	12_2	12_3	12_4	12_5	12_6	12_7	12_8
+13_1	13_2	13_3	13_4	13_5	13_6	13_7	13_8
+14_1	14_2	14_3	14_4	14_5	14_6	14_7	14_8
+
+
+[2021-06-23 15:39:58] 
+DEBUG: ----------------------------------
+
+[2021-06-23 15:39:58] 
+INFO: Sht calc end:sg17
+
+[2021-06-23 15:39:58] 
+INFO: Sht analyze begin:sg17
+
+[2021-06-23 15:39:58] 
+DEBUG: dealFieldName2......
+
+[2021-06-23 15:39:58] 
+DEBUG: rowRows : []
+
+[2021-06-23 15:39:58] 
+DEBUG: public dims : []
+
+[2021-06-23 15:39:58] 
+DEBUG: GRID table : [ds1] : a1	task_id	a2	a3	a4	a5	a6	a7
+5_1	5_2	5_3	5_4	5_5	5_6	5_7	5_8
+6_1	6_2	6_3	6_4	6_5	6_6	6_7	6_8
+7_1	7_2	7_3	7_4	7_5	7_6	7_7	7_8
+8_1	8_2	8_3	8_4	8_5	8_6	8_7	8_8
+9_1	9_2	9_3	9_4	9_5	9_6	9_7	9_8
+10_1	10_2	10_3	10_4	10_5	10_6	10_7	10_8
+11_1	11_2	11_3	11_4	11_5	11_6	11_7	11_8
+12_1	12_2	12_3	12_4	12_5	12_6	12_7	12_8
+13_1	13_2	13_3	13_4	13_5	13_6	13_7	13_8
+14_1	14_2	14_3	14_4	14_5	14_6	14_7	14_8
+
+
+[2021-06-23 15:39:58] 
+INFO: Sht analyze end:sg17
+
+[2021-06-23 15:39:58] 
+INFO: Sht HTML begin:sg17
+
+[2021-06-23 15:39:58] 
+DEBUG: [write ms :3]
+
+[2021-06-23 15:39:58] 
+INFO: Sht HTML first part end:sg17
+
+[2021-06-23 15:39:58] 
+DEBUG: CHARSET : UTF-8
+
+[2021-06-23 15:39:58] 
+DEBUG: CHARSET : UTF-8
+
+[2021-06-23 15:39:58] 
+DEBUG: CHARSET : UTF-8
+
+[2021-06-23 15:42:29] 
+DEBUG: INPUT MAIN PATH : /WEB-INF/reportFiles
+
+[2021-06-23 15:42:29] 
+DEBUG: DFX MAIN PATH : null
+
+[2021-06-23 15:42:29] 
+DEBUG: DFX PATH : D:/IDEAProject/sosp-input/src/main/webapp/WEB-INF/reportFiles
+
+[2021-06-23 15:42:29] 
+DEBUG: noRemoteCache --- true
+
+[2021-06-23 15:42:29] 
+DEBUG: src file : ceshi1.sht
+
+[2021-06-23 15:42:29] 
+DEBUG: find path 0 : D:\IDEAProject\sosp-input\src\main\webapp//WEB-INF/reportFiles
+
+[2021-06-23 15:42:29] 
+DEBUG: find path 1 : /WEB-INF/reportFiles
+
+[2021-06-23 15:42:29] 
+DEBUG: find path 2 : D:\IDEAProject\sosp-input\src\main\webapp//WEB-INF/reportFiles
+
+[2021-06-23 15:42:29] 
+DEBUG: find path 3 : /WEB-INF/reportFiles
+
+[2021-06-23 15:42:29] 
+DEBUG: find path 4 : D:\IDEAProject\sosp-input\src\main\webapp
+
+[2021-06-23 15:42:29] 
+DEBUG: D:\IDEAProject\sosp-input\src\main\webapp\WEB-INF\reportFiles\ceshi1.sht
+
+[2021-06-23 15:42:29] 
+DEBUG: come dfx script row/col is 3/5
+
+[2021-06-23 15:42:29] 
+INFO: Sht get data begin:sg18
+
+[2021-06-23 15:42:29] 
+INFO: Sht get data begin:sg18
+
+[2021-06-23 15:42:29] 
+INFO: Sht calc begin:sg18
+
+[2021-06-23 15:42:29] 
+DEBUG: dealFieldName2......
+
+[2021-06-23 15:42:29] 
+DEBUG: rowRows : []
+
+[2021-06-23 15:42:29] 
+DEBUG: public dims : []
+
+[2021-06-23 15:42:29] 
+DEBUG: GRID table : [ds1] : a1	task_id	a2	a3	a4	a5	a6	a7
+5_1	5_2	5_3	5_4	5_5	5_6	5_7	5_8
+6_1	6_2	6_3	6_4	6_5	6_6	6_7	6_8
+7_1	7_2	7_3	7_4	7_5	7_6	7_7	7_8
+8_1	8_2	8_3	8_4	8_5	8_6	8_7	8_8
+9_1	9_2	9_3	9_4	9_5	9_6	9_7	9_8
+10_1	10_2	10_3	10_4	10_5	10_6	10_7	10_8
+11_1	11_2	11_3	11_4	11_5	11_6	11_7	11_8
+12_1	12_2	12_3	12_4	12_5	12_6	12_7	12_8
+13_1	13_2	13_3	13_4	13_5	13_6	13_7	13_8
+14_1	14_2	14_3	14_4	14_5	14_6	14_7	14_8
+
+
+[2021-06-23 15:42:29] 
+DEBUG: ----------------------------------
+
+[2021-06-23 15:42:29] 
+INFO: Sht calc end:sg18
+
+[2021-06-23 15:42:29] 
+INFO: Sht analyze begin:sg18
+
+[2021-06-23 15:42:29] 
+DEBUG: dealFieldName2......
+
+[2021-06-23 15:42:29] 
+DEBUG: rowRows : []
+
+[2021-06-23 15:42:29] 
+DEBUG: public dims : []
+
+[2021-06-23 15:42:29] 
+DEBUG: GRID table : [ds1] : a1	task_id	a2	a3	a4	a5	a6	a7
+5_1	5_2	5_3	5_4	5_5	5_6	5_7	5_8
+6_1	6_2	6_3	6_4	6_5	6_6	6_7	6_8
+7_1	7_2	7_3	7_4	7_5	7_6	7_7	7_8
+8_1	8_2	8_3	8_4	8_5	8_6	8_7	8_8
+9_1	9_2	9_3	9_4	9_5	9_6	9_7	9_8
+10_1	10_2	10_3	10_4	10_5	10_6	10_7	10_8
+11_1	11_2	11_3	11_4	11_5	11_6	11_7	11_8
+12_1	12_2	12_3	12_4	12_5	12_6	12_7	12_8
+13_1	13_2	13_3	13_4	13_5	13_6	13_7	13_8
+14_1	14_2	14_3	14_4	14_5	14_6	14_7	14_8
+
+
+[2021-06-23 15:42:29] 
+INFO: Sht analyze end:sg18
+
+[2021-06-23 15:42:29] 
+INFO: Sht HTML begin:sg18
+
+[2021-06-23 15:42:29] 
+DEBUG: [write ms :3]
+
+[2021-06-23 15:42:29] 
+INFO: Sht HTML first part end:sg18
+
+[2021-06-23 15:42:29] 
+DEBUG: CHARSET : UTF-8
+
+[2021-06-23 15:42:29] 
+DEBUG: CHARSET : UTF-8
+
+[2021-06-23 15:42:29] 
+DEBUG: CHARSET : UTF-8
+
+[2021-06-23 15:43:24] 
+DEBUG: INPUT MAIN PATH : /WEB-INF/reportFiles
+
+[2021-06-23 15:43:24] 
+DEBUG: DFX MAIN PATH : null
+
+[2021-06-23 15:43:24] 
+DEBUG: DFX PATH : D:/IDEAProject/sosp-input/src/main/webapp/WEB-INF/reportFiles
+
+[2021-06-23 15:43:24] 
+DEBUG: noRemoteCache --- true
+
+[2021-06-23 15:43:24] 
+DEBUG: src file : ceshi1.sht
+
+[2021-06-23 15:43:24] 
+DEBUG: find path 0 : D:\IDEAProject\sosp-input\src\main\webapp//WEB-INF/reportFiles
+
+[2021-06-23 15:43:24] 
+DEBUG: find path 1 : /WEB-INF/reportFiles
+
+[2021-06-23 15:43:24] 
+DEBUG: find path 2 : D:\IDEAProject\sosp-input\src\main\webapp//WEB-INF/reportFiles
+
+[2021-06-23 15:43:24] 
+DEBUG: find path 3 : /WEB-INF/reportFiles
+
+[2021-06-23 15:43:24] 
+DEBUG: find path 4 : D:\IDEAProject\sosp-input\src\main\webapp
+
+[2021-06-23 15:43:24] 
+DEBUG: D:\IDEAProject\sosp-input\src\main\webapp\WEB-INF\reportFiles\ceshi1.sht
+
+[2021-06-23 15:43:24] 
+DEBUG: come dfx script row/col is 3/5
+
+[2021-06-23 15:43:24] 
+INFO: Sht get data begin:sg19
+
+[2021-06-23 15:43:25] 
+INFO: Sht get data begin:sg19
+
+[2021-06-23 15:43:25] 
+INFO: Sht calc begin:sg19
+
+[2021-06-23 15:43:25] 
+DEBUG: dealFieldName2......
+
+[2021-06-23 15:43:25] 
+DEBUG: rowRows : []
+
+[2021-06-23 15:43:25] 
+DEBUG: public dims : []
+
+[2021-06-23 15:43:25] 
+DEBUG: GRID table : [ds1] : a1	task_id	a2	a3	a4	a5	a6	a7
+5_1	5_2	5_3	5_4	5_5	5_6	5_7	5_8
+6_1	6_2	6_3	6_4	6_5	6_6	6_7	6_8
+7_1	7_2	7_3	7_4	7_5	7_6	7_7	7_8
+8_1	8_2	8_3	8_4	8_5	8_6	8_7	8_8
+9_1	9_2	9_3	9_4	9_5	9_6	9_7	9_8
+10_1	10_2	10_3	10_4	10_5	10_6	10_7	10_8
+11_1	11_2	11_3	11_4	11_5	11_6	11_7	11_8
+12_1	12_2	12_3	12_4	12_5	12_6	12_7	12_8
+13_1	13_2	13_3	13_4	13_5	13_6	13_7	13_8
+14_1	14_2	14_3	14_4	14_5	14_6	14_7	14_8
+
+
+[2021-06-23 15:43:25] 
+DEBUG: ----------------------------------
+
+[2021-06-23 15:43:25] 
+INFO: Sht calc end:sg19
+
+[2021-06-23 15:43:25] 
+INFO: Sht analyze begin:sg19
+
+[2021-06-23 15:43:25] 
+DEBUG: dealFieldName2......
+
+[2021-06-23 15:43:25] 
+DEBUG: rowRows : []
+
+[2021-06-23 15:43:25] 
+DEBUG: public dims : []
+
+[2021-06-23 15:43:25] 
+DEBUG: GRID table : [ds1] : a1	task_id	a2	a3	a4	a5	a6	a7
+5_1	5_2	5_3	5_4	5_5	5_6	5_7	5_8
+6_1	6_2	6_3	6_4	6_5	6_6	6_7	6_8
+7_1	7_2	7_3	7_4	7_5	7_6	7_7	7_8
+8_1	8_2	8_3	8_4	8_5	8_6	8_7	8_8
+9_1	9_2	9_3	9_4	9_5	9_6	9_7	9_8
+10_1	10_2	10_3	10_4	10_5	10_6	10_7	10_8
+11_1	11_2	11_3	11_4	11_5	11_6	11_7	11_8
+12_1	12_2	12_3	12_4	12_5	12_6	12_7	12_8
+13_1	13_2	13_3	13_4	13_5	13_6	13_7	13_8
+14_1	14_2	14_3	14_4	14_5	14_6	14_7	14_8
+
+
+[2021-06-23 15:43:25] 
+INFO: Sht analyze end:sg19
+
+[2021-06-23 15:43:25] 
+INFO: Sht HTML begin:sg19
+
+[2021-06-23 15:43:25] 
+DEBUG: [write ms :1]
+
+[2021-06-23 15:43:25] 
+INFO: Sht HTML first part end:sg19
+
+[2021-06-23 15:43:25] 
+DEBUG: CHARSET : UTF-8
+
+[2021-06-23 15:43:25] 
+DEBUG: CHARSET : UTF-8
+
+[2021-06-23 15:43:25] 
+DEBUG: CHARSET : UTF-8
+
+[2021-06-23 15:43:48] 
+DEBUG: INPUT MAIN PATH : /WEB-INF/reportFiles
+
+[2021-06-23 15:43:48] 
+DEBUG: DFX MAIN PATH : null
+
+[2021-06-23 15:43:48] 
+DEBUG: DFX PATH : D:/IDEAProject/sosp-input/src/main/webapp/WEB-INF/reportFiles
+
+[2021-06-23 15:43:48] 
+DEBUG: noRemoteCache --- true
+
+[2021-06-23 15:43:48] 
+DEBUG: src file : .sht.sht
+
+[2021-06-23 15:43:48] 
+DEBUG: find path 0 : D:\IDEAProject\sosp-input\src\main\webapp//WEB-INF/reportFiles
+
+[2021-06-23 15:43:48] 
+DEBUG: find path 1 : /WEB-INF/reportFiles
+
+[2021-06-23 15:43:48] 
+DEBUG: find path 2 : D:\IDEAProject\sosp-input\src\main\webapp//WEB-INF/reportFiles
+
+[2021-06-23 15:43:48] 
+DEBUG: find path 3 : /WEB-INF/reportFiles
+
+[2021-06-23 15:43:48] 
+DEBUG: find path 4 : D:\IDEAProject\sosp-input\src\main\webapp
+
+[2021-06-23 15:43:48] 
+DEBUG: skip web resource search.Path .sht.sht does not start with a "/" character
+
+[2021-06-23 15:43:48] 
+DEBUG: No resource file located:/.sht.sht
+
+[2021-06-23 15:43:48] 
+DEBUG: null
+
+[2021-06-23 15:43:48] 
+SEVERE: ERROR:
+java.lang.Exception: Can not find sht file
+	at com.raqsoft.input.tag.InputTag.calcInput(Unknown Source:1548)
+	at com.raqsoft.input.tag.InputTag.doStartTag(Unknown Source:502)
+	at org.apache.jsp.reportJsp.sbData_jsp._jspService(sbData_jsp.java:403)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+	at org.apache.jasper.servlet.JspServlet._serviceJspFile(JspServlet.java:382)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:40001)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:711)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:460)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:387)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:315)
+	at com.jfinal.render.JspRender.render(JspRender.java:67)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:113)
+	at com.jfinal.ext.handler.UrlSkipHandler.handle(UrlSkipHandler.java:46)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:90)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:201)
+	at org.apache.catalina.core.StandardContextValve.__invoke(StandardContextValve.java:97)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:41002)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:364)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1629)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+[2021-06-23 15:43:52] 
+DEBUG: INPUT MAIN PATH : /WEB-INF/reportFiles
+
+[2021-06-23 15:43:52] 
+DEBUG: DFX MAIN PATH : null
+
+[2021-06-23 15:43:52] 
+DEBUG: DFX PATH : D:/IDEAProject/sosp-input/src/main/webapp/WEB-INF/reportFiles
+
+[2021-06-23 15:43:52] 
+DEBUG: noRemoteCache --- true
+
+[2021-06-23 15:43:52] 
+DEBUG: src file : ceshi1.sht
+
+[2021-06-23 15:43:52] 
+DEBUG: find path 0 : D:\IDEAProject\sosp-input\src\main\webapp//WEB-INF/reportFiles
+
+[2021-06-23 15:43:52] 
+DEBUG: find path 1 : /WEB-INF/reportFiles
+
+[2021-06-23 15:43:52] 
+DEBUG: find path 2 : D:\IDEAProject\sosp-input\src\main\webapp//WEB-INF/reportFiles
+
+[2021-06-23 15:43:52] 
+DEBUG: find path 3 : /WEB-INF/reportFiles
+
+[2021-06-23 15:43:52] 
+DEBUG: find path 4 : D:\IDEAProject\sosp-input\src\main\webapp
+
+[2021-06-23 15:43:52] 
+DEBUG: D:\IDEAProject\sosp-input\src\main\webapp\WEB-INF\reportFiles\ceshi1.sht
+
+[2021-06-23 15:43:52] 
+DEBUG: come dfx script row/col is 3/5
+
+[2021-06-23 15:43:52] 
+INFO: Sht get data begin:sg21
+
+[2021-06-23 15:43:53] 
+INFO: Sht get data begin:sg21
+
+[2021-06-23 15:43:53] 
+INFO: Sht calc begin:sg21
+
+[2021-06-23 15:43:53] 
+DEBUG: dealFieldName2......
+
+[2021-06-23 15:43:53] 
+DEBUG: rowRows : []
+
+[2021-06-23 15:43:53] 
+DEBUG: public dims : []
+
+[2021-06-23 15:43:53] 
+DEBUG: GRID table : [ds1] : a1	task_id	a2	a3	a4	a5	a6	a7
+5_1	5_2	5_3	5_4	5_5	5_6	5_7	5_8
+6_1	6_2	6_3	6_4	6_5	6_6	6_7	6_8
+7_1	7_2	7_3	7_4	7_5	7_6	7_7	7_8
+8_1	8_2	8_3	8_4	8_5	8_6	8_7	8_8
+9_1	9_2	9_3	9_4	9_5	9_6	9_7	9_8
+10_1	10_2	10_3	10_4	10_5	10_6	10_7	10_8
+11_1	11_2	11_3	11_4	11_5	11_6	11_7	11_8
+12_1	12_2	12_3	12_4	12_5	12_6	12_7	12_8
+13_1	13_2	13_3	13_4	13_5	13_6	13_7	13_8
+14_1	14_2	14_3	14_4	14_5	14_6	14_7	14_8
+
+
+[2021-06-23 15:43:53] 
+DEBUG: ----------------------------------
+
+[2021-06-23 15:43:53] 
+INFO: Sht calc end:sg21
+
+[2021-06-23 15:43:53] 
+INFO: Sht analyze begin:sg21
+
+[2021-06-23 15:43:53] 
+DEBUG: dealFieldName2......
+
+[2021-06-23 15:43:53] 
+DEBUG: rowRows : []
+
+[2021-06-23 15:43:53] 
+DEBUG: public dims : []
+
+[2021-06-23 15:43:53] 
+DEBUG: GRID table : [ds1] : a1	task_id	a2	a3	a4	a5	a6	a7
+5_1	5_2	5_3	5_4	5_5	5_6	5_7	5_8
+6_1	6_2	6_3	6_4	6_5	6_6	6_7	6_8
+7_1	7_2	7_3	7_4	7_5	7_6	7_7	7_8
+8_1	8_2	8_3	8_4	8_5	8_6	8_7	8_8
+9_1	9_2	9_3	9_4	9_5	9_6	9_7	9_8
+10_1	10_2	10_3	10_4	10_5	10_6	10_7	10_8
+11_1	11_2	11_3	11_4	11_5	11_6	11_7	11_8
+12_1	12_2	12_3	12_4	12_5	12_6	12_7	12_8
+13_1	13_2	13_3	13_4	13_5	13_6	13_7	13_8
+14_1	14_2	14_3	14_4	14_5	14_6	14_7	14_8
+
+
+[2021-06-23 15:43:53] 
+INFO: Sht analyze end:sg21
+
+[2021-06-23 15:43:53] 
+INFO: Sht HTML begin:sg21
+
+[2021-06-23 15:43:53] 
+DEBUG: [write ms :1]
+
+[2021-06-23 15:43:53] 
+INFO: Sht HTML first part end:sg21
+
+[2021-06-23 15:43:53] 
+DEBUG: CHARSET : UTF-8
+
+[2021-06-23 15:43:53] 
+DEBUG: CHARSET : UTF-8
+
+[2021-06-23 15:43:53] 
+DEBUG: CHARSET : UTF-8
+
+[2021-06-23 15:44:02] 
+DEBUG: INPUT MAIN PATH : /WEB-INF/reportFiles
+
+[2021-06-23 15:44:02] 
+DEBUG: DFX MAIN PATH : null
+
+[2021-06-23 15:44:02] 
+DEBUG: DFX PATH : D:/IDEAProject/sosp-input/src/main/webapp/WEB-INF/reportFiles
+
+[2021-06-23 15:44:02] 
+DEBUG: noRemoteCache --- true
+
+[2021-06-23 15:44:02] 
+DEBUG: src file : .sht.sht
+
+[2021-06-23 15:44:02] 
+DEBUG: find path 0 : D:\IDEAProject\sosp-input\src\main\webapp//WEB-INF/reportFiles
+
+[2021-06-23 15:44:02] 
+DEBUG: find path 1 : /WEB-INF/reportFiles
+
+[2021-06-23 15:44:02] 
+DEBUG: find path 2 : D:\IDEAProject\sosp-input\src\main\webapp//WEB-INF/reportFiles
+
+[2021-06-23 15:44:02] 
+DEBUG: find path 3 : /WEB-INF/reportFiles
+
+[2021-06-23 15:44:02] 
+DEBUG: find path 4 : D:\IDEAProject\sosp-input\src\main\webapp
+
+[2021-06-23 15:44:02] 
+DEBUG: skip web resource search.Path .sht.sht does not start with a "/" character
+
+[2021-06-23 15:44:02] 
+DEBUG: No resource file located:/.sht.sht
+
+[2021-06-23 15:44:02] 
+DEBUG: null
+
+[2021-06-23 15:44:02] 
+SEVERE: ERROR:
+java.lang.Exception: Can not find sht file
+	at com.raqsoft.input.tag.InputTag.calcInput(Unknown Source:1548)
+	at com.raqsoft.input.tag.InputTag.doStartTag(Unknown Source:502)
+	at org.apache.jsp.reportJsp.sbData_jsp._jspService(sbData_jsp.java:403)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+	at org.apache.jasper.servlet.JspServlet._serviceJspFile(JspServlet.java:382)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:40001)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:711)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:460)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:387)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:315)
+	at com.jfinal.render.JspRender.render(JspRender.java:67)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:113)
+	at com.jfinal.ext.handler.UrlSkipHandler.handle(UrlSkipHandler.java:46)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:90)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:201)
+	at org.apache.catalina.core.StandardContextValve.__invoke(StandardContextValve.java:97)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:41002)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:364)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1629)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+[2021-06-23 15:44:13] 
+DEBUG: INPUT MAIN PATH : /WEB-INF/reportFiles
+
+[2021-06-23 15:44:13] 
+DEBUG: DFX MAIN PATH : null
+
+[2021-06-23 15:44:13] 
+DEBUG: DFX PATH : D:/IDEAProject/sosp-input/src/main/webapp/WEB-INF/reportFiles
+
+[2021-06-23 15:44:13] 
+DEBUG: noRemoteCache --- true
+
+[2021-06-23 15:44:13] 
+DEBUG: src file : .sht.sht
+
+[2021-06-23 15:44:13] 
+DEBUG: find path 0 : D:\IDEAProject\sosp-input\src\main\webapp//WEB-INF/reportFiles
+
+[2021-06-23 15:44:13] 
+DEBUG: find path 1 : /WEB-INF/reportFiles
+
+[2021-06-23 15:44:13] 
+DEBUG: find path 2 : D:\IDEAProject\sosp-input\src\main\webapp//WEB-INF/reportFiles
+
+[2021-06-23 15:44:13] 
+DEBUG: find path 3 : /WEB-INF/reportFiles
+
+[2021-06-23 15:44:13] 
+DEBUG: find path 4 : D:\IDEAProject\sosp-input\src\main\webapp
+
+[2021-06-23 15:44:13] 
+DEBUG: skip web resource search.Path .sht.sht does not start with a "/" character
+
+[2021-06-23 15:44:13] 
+DEBUG: No resource file located:/.sht.sht
+
+[2021-06-23 15:44:13] 
+DEBUG: null
+
+[2021-06-23 15:44:13] 
+SEVERE: ERROR:
+java.lang.Exception: Can not find sht file
+	at com.raqsoft.input.tag.InputTag.calcInput(Unknown Source:1548)
+	at com.raqsoft.input.tag.InputTag.doStartTag(Unknown Source:502)
+	at org.apache.jsp.reportJsp.sbData_jsp._jspService(sbData_jsp.java:403)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+	at org.apache.jasper.servlet.JspServlet._serviceJspFile(JspServlet.java:382)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:40001)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:711)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:460)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:387)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:315)
+	at com.jfinal.render.JspRender.render(JspRender.java:67)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:113)
+	at com.jfinal.ext.handler.UrlSkipHandler.handle(UrlSkipHandler.java:46)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:90)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:201)
+	at org.apache.catalina.core.StandardContextValve.__invoke(StandardContextValve.java:97)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:41002)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:364)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1629)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+[2021-06-23 15:44:19] 
+DEBUG: INPUT MAIN PATH : /WEB-INF/reportFiles
+
+[2021-06-23 15:44:19] 
+DEBUG: DFX MAIN PATH : null
+
+[2021-06-23 15:44:19] 
+DEBUG: DFX PATH : D:/IDEAProject/sosp-input/src/main/webapp/WEB-INF/reportFiles
+
+[2021-06-23 15:44:19] 
+DEBUG: noRemoteCache --- true
+
+[2021-06-23 15:44:19] 
+DEBUG: src file : .sht.sht
+
+[2021-06-23 15:44:19] 
+DEBUG: find path 0 : D:\IDEAProject\sosp-input\src\main\webapp//WEB-INF/reportFiles
+
+[2021-06-23 15:44:19] 
+DEBUG: find path 1 : /WEB-INF/reportFiles
+
+[2021-06-23 15:44:19] 
+DEBUG: find path 2 : D:\IDEAProject\sosp-input\src\main\webapp//WEB-INF/reportFiles
+
+[2021-06-23 15:44:19] 
+DEBUG: find path 3 : /WEB-INF/reportFiles
+
+[2021-06-23 15:44:19] 
+DEBUG: find path 4 : D:\IDEAProject\sosp-input\src\main\webapp
+
+[2021-06-23 15:44:19] 
+DEBUG: skip web resource search.Path .sht.sht does not start with a "/" character
+
+[2021-06-23 15:44:19] 
+DEBUG: No resource file located:/.sht.sht
+
+[2021-06-23 15:44:19] 
+DEBUG: null
+
+[2021-06-23 15:44:19] 
+SEVERE: ERROR:
+java.lang.Exception: Can not find sht file
+	at com.raqsoft.input.tag.InputTag.calcInput(Unknown Source:1548)
+	at com.raqsoft.input.tag.InputTag.doStartTag(Unknown Source:502)
+	at org.apache.jsp.reportJsp.sbData_jsp._jspService(sbData_jsp.java:403)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+	at org.apache.jasper.servlet.JspServlet._serviceJspFile(JspServlet.java:382)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:40001)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:711)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:460)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:387)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:315)
+	at com.jfinal.render.JspRender.render(JspRender.java:67)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:113)
+	at com.jfinal.ext.handler.UrlSkipHandler.handle(UrlSkipHandler.java:46)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:90)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:201)
+	at org.apache.catalina.core.StandardContextValve.__invoke(StandardContextValve.java:97)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:41002)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:364)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1629)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+[2021-06-23 15:51:22] 
+DEBUG: INPUT MAIN PATH : /WEB-INF/reportFiles
+
+[2021-06-23 15:51:22] 
+DEBUG: DFX MAIN PATH : null
+
+[2021-06-23 15:51:22] 
+DEBUG: DFX PATH : D:/IDEAProject/sosp-input/src/main/webapp/WEB-INF/reportFiles
+
+[2021-06-23 15:51:22] 
+DEBUG: noRemoteCache --- true
+
+[2021-06-23 15:51:22] 
+DEBUG: src file : ceshi1.sht
+
+[2021-06-23 15:51:22] 
+DEBUG: find path 0 : D:\IDEAProject\sosp-input\src\main\webapp//WEB-INF/reportFiles
+
+[2021-06-23 15:51:22] 
+DEBUG: find path 1 : /WEB-INF/reportFiles
+
+[2021-06-23 15:51:22] 
+DEBUG: find path 2 : D:\IDEAProject\sosp-input\src\main\webapp//WEB-INF/reportFiles
+
+[2021-06-23 15:51:22] 
+DEBUG: find path 3 : /WEB-INF/reportFiles
+
+[2021-06-23 15:51:22] 
+DEBUG: find path 4 : D:\IDEAProject\sosp-input\src\main\webapp
+
+[2021-06-23 15:51:22] 
+DEBUG: D:\IDEAProject\sosp-input\src\main\webapp\WEB-INF\reportFiles\ceshi1.sht
+
+[2021-06-23 15:51:22] 
+DEBUG: come dfx script row/col is 3/5
+
+[2021-06-23 15:51:22] 
+INFO: Sht get data begin:sg25
+
+[2021-06-23 15:51:23] 
+INFO: Sht get data begin:sg25
+
+[2021-06-23 15:51:23] 
+INFO: Sht calc begin:sg25
+
+[2021-06-23 15:51:23] 
+DEBUG: dealFieldName2......
+
+[2021-06-23 15:51:23] 
+DEBUG: rowRows : []
+
+[2021-06-23 15:51:23] 
+DEBUG: public dims : []
+
+[2021-06-23 15:51:23] 
+DEBUG: GRID table : [ds1] : a1	task_id	a2	a3	a4	a5	a6	a7
+5_1	5_2	5_3	5_4	5_5	5_6	5_7	5_8
+6_1	6_2	6_3	6_4	6_5	6_6	6_7	6_8
+7_1	7_2	7_3	7_4	7_5	7_6	7_7	7_8
+8_1	8_2	8_3	8_4	8_5	8_6	8_7	8_8
+9_1	9_2	9_3	9_4	9_5	9_6	9_7	9_8
+10_1	10_2	10_3	10_4	10_5	10_6	10_7	10_8
+11_1	11_2	11_3	11_4	11_5	11_6	11_7	11_8
+12_1	12_2	12_3	12_4	12_5	12_6	12_7	12_8
+13_1	13_2	13_3	13_4	13_5	13_6	13_7	13_8
+14_1	14_2	14_3	14_4	14_5	14_6	14_7	14_8
+
+
+[2021-06-23 15:51:23] 
+DEBUG: ----------------------------------
+
+[2021-06-23 15:51:23] 
+INFO: Sht calc end:sg25
+
+[2021-06-23 15:51:23] 
+INFO: Sht analyze begin:sg25
+
+[2021-06-23 15:51:23] 
+DEBUG: dealFieldName2......
+
+[2021-06-23 15:51:23] 
+DEBUG: rowRows : []
+
+[2021-06-23 15:51:23] 
+DEBUG: public dims : []
+
+[2021-06-23 15:51:23] 
+DEBUG: GRID table : [ds1] : a1	task_id	a2	a3	a4	a5	a6	a7
+5_1	5_2	5_3	5_4	5_5	5_6	5_7	5_8
+6_1	6_2	6_3	6_4	6_5	6_6	6_7	6_8
+7_1	7_2	7_3	7_4	7_5	7_6	7_7	7_8
+8_1	8_2	8_3	8_4	8_5	8_6	8_7	8_8
+9_1	9_2	9_3	9_4	9_5	9_6	9_7	9_8
+10_1	10_2	10_3	10_4	10_5	10_6	10_7	10_8
+11_1	11_2	11_3	11_4	11_5	11_6	11_7	11_8
+12_1	12_2	12_3	12_4	12_5	12_6	12_7	12_8
+13_1	13_2	13_3	13_4	13_5	13_6	13_7	13_8
+14_1	14_2	14_3	14_4	14_5	14_6	14_7	14_8
+
+
+[2021-06-23 15:51:23] 
+INFO: Sht analyze end:sg25
+
+[2021-06-23 15:51:23] 
+INFO: Sht HTML begin:sg25
+
+[2021-06-23 15:51:23] 
+DEBUG: [write ms :2]
+
+[2021-06-23 15:51:23] 
+INFO: Sht HTML first part end:sg25
+
+[2021-06-23 15:51:23] 
+DEBUG: CHARSET : UTF-8
+
+[2021-06-23 15:51:23] 
+DEBUG: CHARSET : UTF-8
+
+[2021-06-23 15:51:23] 
+DEBUG: CHARSET : UTF-8
+
+[2021-06-23 15:51:59] 
+DEBUG: CHARSET : UTF-8
+
+[2021-06-23 15:51:59] 
+DEBUG: [read ms :3]
+
+[2021-06-23 15:51:59] 
+DEBUG: sgid = sg25
+
+[2021-06-23 15:51:59] 
+DEBUG: obj = com.raqsoft.input.view.InputSessionObj@6a14d106
+
+[2021-06-23 15:51:59] 
+DEBUG: submit data : {"sheet1":{"A1":"","B1":"","C1":"","A2":"","B2":"","C2":"","D2":"2021年7月","E2":"","F2":"","G2":"","H2":"单位：万元","A3":"","B3":"","C3":"","D3":"基准日存量余额(上年末)","E3":"本年预计存量压降额","F3":"本年预计增量净额","G3":"本年末预计余额","H3":" 备注","A4":"指标编码","B4":"任务id","C4":"栏      次","D4":"1","E4":"2","F4":"3","G4":"4","H4":"5","A5":"1","B5":"315","C5":"资金合计","D5":"aaa","E5":"","F5":"","G5":"","H5":"","A6":"2","B6":"315","C6":"一、应收账款小计","D6":"bbb","E6":"cc","F6":"","G6":"c","H6":"","A7":"3","B7":"315","C7":"  （一）1年以内（含1年）应收账款","D7":"ccc","E7":"","F7":"c","G7":"","H7":"","A8":"4","B8":"315","C8":"  （二）1年以上应收账款","D8":"ccc","E8":"","F8":"","G8":"c","H8":"","A9":"5","B9":"315","C9":"二、存货小计","D9":"cc","E9":"c","F9":"ccc","G9":"c","H9":"","A10":"6","B10":"315","C10":"   其中：房地产存货","D10":"cc","E10":"","F10":"","G10":"c","H10":"","A11":"7","B11":"315","C11":"         工程施工（已完工未结算款）","D11":"cc","E11":"","F11":"","G11":"","H11":"","A12":"8","B12":"315","C12":"         原油、成品油存货","D12":"cc","E12":"","F12":"c","G12":"","H12":"","A13":"9","B13":"315","C13":"         有色冶金存货","D13":"cc","E13":"","F13":"c","G13":"c","H13":"","A14":"10","B14":"315","C14":"   其中：非正常存货","D14":"cc","E14":"c","F14":"","G14":"","H14":""}}
+
+[2021-06-23 15:51:59] 
+DEBUG: input submit param list count : 7
+
+[2021-06-23 15:51:59] 
+DEBUG: go dfx script row/col is 6/2
+
+[2021-06-23 15:52:00] 
+DEBUG: Auto insert, preparing insert records: insert into cwss_ljyk_jzr (task_id, a1, a2, a3, a4, a5, a6, a7 ) values ( ?, ?, ?, ?, ?, ?, ?, ? )
+
+[2021-06-23 15:52:00] 
+DEBUG: come dfx script row/col is 3/5
+
+[2021-06-23 15:52:00] 
+INFO: Sht get data begin:sg25
+
+[2021-06-23 15:52:00] 
+DEBUG: [write ms :1]
+
+[2021-06-23 15:52:00] 
+INFO: refreshed cache:sg25
+
+[2021-06-23 15:52:22] 
+DEBUG: INPUT MAIN PATH : /WEB-INF/reportFiles
+
+[2021-06-23 15:52:22] 
+DEBUG: DFX MAIN PATH : null
+
+[2021-06-23 15:52:22] 
+DEBUG: DFX PATH : D:/IDEAProject/sosp-input/src/main/webapp/WEB-INF/reportFiles
+
+[2021-06-23 15:52:22] 
+DEBUG: noRemoteCache --- true
+
+[2021-06-23 15:52:22] 
+DEBUG: src file : ceshi1.sht
+
+[2021-06-23 15:52:22] 
+DEBUG: find path 0 : D:\IDEAProject\sosp-input\src\main\webapp//WEB-INF/reportFiles
+
+[2021-06-23 15:52:22] 
+DEBUG: find path 1 : /WEB-INF/reportFiles
+
+[2021-06-23 15:52:22] 
+DEBUG: find path 2 : D:\IDEAProject\sosp-input\src\main\webapp//WEB-INF/reportFiles
+
+[2021-06-23 15:52:22] 
+DEBUG: find path 3 : /WEB-INF/reportFiles
+
+[2021-06-23 15:52:22] 
+DEBUG: find path 4 : D:\IDEAProject\sosp-input\src\main\webapp
+
+[2021-06-23 15:52:22] 
+DEBUG: D:\IDEAProject\sosp-input\src\main\webapp\WEB-INF\reportFiles\ceshi1.sht
+
+[2021-06-23 15:52:22] 
+DEBUG: come dfx script row/col is 3/5
+
+[2021-06-23 15:52:22] 
+INFO: Sht get data begin:sg26
+
+[2021-06-23 15:52:22] 
+INFO: Sht get data begin:sg26
+
+[2021-06-23 15:52:22] 
+INFO: Sht calc begin:sg26
+
+[2021-06-23 15:52:22] 
+DEBUG: dealFieldName2......
+
+[2021-06-23 15:52:22] 
+DEBUG: rowRows : []
+
+[2021-06-23 15:52:22] 
+DEBUG: public dims : []
+
+[2021-06-23 15:52:22] 
+DEBUG: GRID table : [ds1] : a1	task_id	a2	a3	a4	a5	a6	a7
+5_1	5_2	5_3	5_4	5_5	5_6	5_7	5_8
+6_1	6_2	6_3	6_4	6_5	6_6	6_7	6_8
+7_1	7_2	7_3	7_4	7_5	7_6	7_7	7_8
+8_1	8_2	8_3	8_4	8_5	8_6	8_7	8_8
+9_1	9_2	9_3	9_4	9_5	9_6	9_7	9_8
+10_1	10_2	10_3	10_4	10_5	10_6	10_7	10_8
+11_1	11_2	11_3	11_4	11_5	11_6	11_7	11_8
+12_1	12_2	12_3	12_4	12_5	12_6	12_7	12_8
+13_1	13_2	13_3	13_4	13_5	13_6	13_7	13_8
+14_1	14_2	14_3	14_4	14_5	14_6	14_7	14_8
+
+
+[2021-06-23 15:52:22] 
+DEBUG: ----------------------------------
+
+[2021-06-23 15:52:22] 
+INFO: Sht calc end:sg26
+
+[2021-06-23 15:52:22] 
+INFO: Sht analyze begin:sg26
+
+[2021-06-23 15:52:22] 
+DEBUG: dealFieldName2......
+
+[2021-06-23 15:52:22] 
+DEBUG: rowRows : []
+
+[2021-06-23 15:52:22] 
+DEBUG: public dims : []
+
+[2021-06-23 15:52:22] 
+DEBUG: GRID table : [ds1] : a1	task_id	a2	a3	a4	a5	a6	a7
+5_1	5_2	5_3	5_4	5_5	5_6	5_7	5_8
+6_1	6_2	6_3	6_4	6_5	6_6	6_7	6_8
+7_1	7_2	7_3	7_4	7_5	7_6	7_7	7_8
+8_1	8_2	8_3	8_4	8_5	8_6	8_7	8_8
+9_1	9_2	9_3	9_4	9_5	9_6	9_7	9_8
+10_1	10_2	10_3	10_4	10_5	10_6	10_7	10_8
+11_1	11_2	11_3	11_4	11_5	11_6	11_7	11_8
+12_1	12_2	12_3	12_4	12_5	12_6	12_7	12_8
+13_1	13_2	13_3	13_4	13_5	13_6	13_7	13_8
+14_1	14_2	14_3	14_4	14_5	14_6	14_7	14_8
+
+
+[2021-06-23 15:52:22] 
+INFO: Sht analyze end:sg26
+
+[2021-06-23 15:52:22] 
+INFO: Sht HTML begin:sg26
+
+[2021-06-23 15:52:22] 
+DEBUG: [write ms :3]
+
+[2021-06-23 15:52:22] 
+INFO: Sht HTML first part end:sg26
+
+[2021-06-23 15:52:22] 
+DEBUG: CHARSET : UTF-8
+
+[2021-06-23 15:52:22] 
+DEBUG: CHARSET : UTF-8
+
+[2021-06-23 15:52:22] 
+DEBUG: CHARSET : UTF-8
+
+[2021-06-23 15:52:46] 
+DEBUG: INPUT MAIN PATH : /WEB-INF/reportFiles
+
+[2021-06-23 15:52:46] 
+DEBUG: DFX MAIN PATH : null
+
+[2021-06-23 15:52:46] 
+DEBUG: DFX PATH : D:/IDEAProject/sosp-input/src/main/webapp/WEB-INF/reportFiles
+
+[2021-06-23 15:52:46] 
+DEBUG: noRemoteCache --- true
+
+[2021-06-23 15:52:46] 
+DEBUG: src file : ceshi1.sht
+
+[2021-06-23 15:52:46] 
+DEBUG: find path 0 : D:\IDEAProject\sosp-input\src\main\webapp//WEB-INF/reportFiles
+
+[2021-06-23 15:52:46] 
+DEBUG: find path 1 : /WEB-INF/reportFiles
+
+[2021-06-23 15:52:46] 
+DEBUG: find path 2 : D:\IDEAProject\sosp-input\src\main\webapp//WEB-INF/reportFiles
+
+[2021-06-23 15:52:46] 
+DEBUG: find path 3 : /WEB-INF/reportFiles
+
+[2021-06-23 15:52:46] 
+DEBUG: find path 4 : D:\IDEAProject\sosp-input\src\main\webapp
+
+[2021-06-23 15:52:46] 
+DEBUG: D:\IDEAProject\sosp-input\src\main\webapp\WEB-INF\reportFiles\ceshi1.sht
+
+[2021-06-23 15:52:46] 
+DEBUG: come dfx script row/col is 3/5
+
+[2021-06-23 15:52:46] 
+INFO: Sht get data begin:sg27
+
+[2021-06-23 15:52:46] 
+INFO: Sht get data begin:sg27
+
+[2021-06-23 15:52:46] 
+INFO: Sht calc begin:sg27
+
+[2021-06-23 15:52:46] 
+DEBUG: dealFieldName2......
+
+[2021-06-23 15:52:46] 
+DEBUG: rowRows : []
+
+[2021-06-23 15:52:46] 
+DEBUG: public dims : []
+
+[2021-06-23 15:52:46] 
+DEBUG: GRID table : [ds1] : a1	task_id	a2	a3	a4	a5	a6	a7
+5_1	5_2	5_3	5_4	5_5	5_6	5_7	5_8
+6_1	6_2	6_3	6_4	6_5	6_6	6_7	6_8
+7_1	7_2	7_3	7_4	7_5	7_6	7_7	7_8
+8_1	8_2	8_3	8_4	8_5	8_6	8_7	8_8
+9_1	9_2	9_3	9_4	9_5	9_6	9_7	9_8
+10_1	10_2	10_3	10_4	10_5	10_6	10_7	10_8
+11_1	11_2	11_3	11_4	11_5	11_6	11_7	11_8
+12_1	12_2	12_3	12_4	12_5	12_6	12_7	12_8
+13_1	13_2	13_3	13_4	13_5	13_6	13_7	13_8
+14_1	14_2	14_3	14_4	14_5	14_6	14_7	14_8
+
+
+[2021-06-23 15:52:46] 
+DEBUG: ----------------------------------
+
+[2021-06-23 15:52:46] 
+INFO: Sht calc end:sg27
+
+[2021-06-23 15:52:46] 
+INFO: Sht analyze begin:sg27
+
+[2021-06-23 15:52:46] 
+DEBUG: dealFieldName2......
+
+[2021-06-23 15:52:46] 
+DEBUG: rowRows : []
+
+[2021-06-23 15:52:46] 
+DEBUG: public dims : []
+
+[2021-06-23 15:52:46] 
+DEBUG: GRID table : [ds1] : a1	task_id	a2	a3	a4	a5	a6	a7
+5_1	5_2	5_3	5_4	5_5	5_6	5_7	5_8
+6_1	6_2	6_3	6_4	6_5	6_6	6_7	6_8
+7_1	7_2	7_3	7_4	7_5	7_6	7_7	7_8
+8_1	8_2	8_3	8_4	8_5	8_6	8_7	8_8
+9_1	9_2	9_3	9_4	9_5	9_6	9_7	9_8
+10_1	10_2	10_3	10_4	10_5	10_6	10_7	10_8
+11_1	11_2	11_3	11_4	11_5	11_6	11_7	11_8
+12_1	12_2	12_3	12_4	12_5	12_6	12_7	12_8
+13_1	13_2	13_3	13_4	13_5	13_6	13_7	13_8
+14_1	14_2	14_3	14_4	14_5	14_6	14_7	14_8
+
+
+[2021-06-23 15:52:46] 
+INFO: Sht analyze end:sg27
+
+[2021-06-23 15:52:46] 
+INFO: Sht HTML begin:sg27
+
+[2021-06-23 15:52:46] 
+DEBUG: [write ms :2]
+
+[2021-06-23 15:52:46] 
+INFO: Sht HTML first part end:sg27
+
+[2021-06-23 15:52:46] 
+DEBUG: CHARSET : UTF-8
+
+[2021-06-23 15:52:46] 
+DEBUG: CHARSET : UTF-8
+
+[2021-06-23 15:52:46] 
+DEBUG: CHARSET : UTF-8
+
+[2021-06-23 15:53:05] 
+DEBUG: INPUT MAIN PATH : /WEB-INF/reportFiles
+
+[2021-06-23 15:53:05] 
+DEBUG: DFX MAIN PATH : null
+
+[2021-06-23 15:53:05] 
+DEBUG: DFX PATH : D:/IDEAProject/sosp-input/src/main/webapp/WEB-INF/reportFiles
+
+[2021-06-23 15:53:05] 
+DEBUG: noRemoteCache --- true
+
+[2021-06-23 15:53:05] 
+DEBUG: src file : ceshi1.sht
+
+[2021-06-23 15:53:05] 
+DEBUG: find path 0 : D:\IDEAProject\sosp-input\src\main\webapp//WEB-INF/reportFiles
+
+[2021-06-23 15:53:05] 
+DEBUG: find path 1 : /WEB-INF/reportFiles
+
+[2021-06-23 15:53:05] 
+DEBUG: find path 2 : D:\IDEAProject\sosp-input\src\main\webapp//WEB-INF/reportFiles
+
+[2021-06-23 15:53:05] 
+DEBUG: find path 3 : /WEB-INF/reportFiles
+
+[2021-06-23 15:53:05] 
+DEBUG: find path 4 : D:\IDEAProject\sosp-input\src\main\webapp
+
+[2021-06-23 15:53:05] 
+DEBUG: D:\IDEAProject\sosp-input\src\main\webapp\WEB-INF\reportFiles\ceshi1.sht
+
+[2021-06-23 15:53:05] 
+DEBUG: come dfx script row/col is 3/5
+
+[2021-06-23 15:53:05] 
+INFO: Sht get data begin:sg28
+
+[2021-06-23 15:53:06] 
+INFO: Sht get data begin:sg28
+
+[2021-06-23 15:53:06] 
+INFO: Sht calc begin:sg28
+
+[2021-06-23 15:53:06] 
+DEBUG: dealFieldName2......
+
+[2021-06-23 15:53:06] 
+DEBUG: rowRows : []
+
+[2021-06-23 15:53:06] 
+DEBUG: public dims : []
+
+[2021-06-23 15:53:06] 
+DEBUG: GRID table : [ds1] : a1	task_id	a2	a3	a4	a5	a6	a7
+5_1	5_2	5_3	5_4	5_5	5_6	5_7	5_8
+6_1	6_2	6_3	6_4	6_5	6_6	6_7	6_8
+7_1	7_2	7_3	7_4	7_5	7_6	7_7	7_8
+8_1	8_2	8_3	8_4	8_5	8_6	8_7	8_8
+9_1	9_2	9_3	9_4	9_5	9_6	9_7	9_8
+10_1	10_2	10_3	10_4	10_5	10_6	10_7	10_8
+11_1	11_2	11_3	11_4	11_5	11_6	11_7	11_8
+12_1	12_2	12_3	12_4	12_5	12_6	12_7	12_8
+13_1	13_2	13_3	13_4	13_5	13_6	13_7	13_8
+14_1	14_2	14_3	14_4	14_5	14_6	14_7	14_8
+
+
+[2021-06-23 15:53:06] 
+DEBUG: ----------------------------------
+
+[2021-06-23 15:53:06] 
+INFO: Sht calc end:sg28
+
+[2021-06-23 15:53:06] 
+INFO: Sht analyze begin:sg28
+
+[2021-06-23 15:53:06] 
+DEBUG: dealFieldName2......
+
+[2021-06-23 15:53:06] 
+DEBUG: rowRows : []
+
+[2021-06-23 15:53:06] 
+DEBUG: public dims : []
+
+[2021-06-23 15:53:06] 
+DEBUG: GRID table : [ds1] : a1	task_id	a2	a3	a4	a5	a6	a7
+5_1	5_2	5_3	5_4	5_5	5_6	5_7	5_8
+6_1	6_2	6_3	6_4	6_5	6_6	6_7	6_8
+7_1	7_2	7_3	7_4	7_5	7_6	7_7	7_8
+8_1	8_2	8_3	8_4	8_5	8_6	8_7	8_8
+9_1	9_2	9_3	9_4	9_5	9_6	9_7	9_8
+10_1	10_2	10_3	10_4	10_5	10_6	10_7	10_8
+11_1	11_2	11_3	11_4	11_5	11_6	11_7	11_8
+12_1	12_2	12_3	12_4	12_5	12_6	12_7	12_8
+13_1	13_2	13_3	13_4	13_5	13_6	13_7	13_8
+14_1	14_2	14_3	14_4	14_5	14_6	14_7	14_8
+
+
+[2021-06-23 15:53:06] 
+INFO: Sht analyze end:sg28
+
+[2021-06-23 15:53:06] 
+INFO: Sht HTML begin:sg28
+
+[2021-06-23 15:53:06] 
+DEBUG: [write ms :3]
+
+[2021-06-23 15:53:06] 
+INFO: Sht HTML first part end:sg28
+
+[2021-06-23 15:53:06] 
+DEBUG: CHARSET : UTF-8
+
+[2021-06-23 15:53:06] 
+DEBUG: CHARSET : UTF-8
+
+[2021-06-23 15:53:06] 
+DEBUG: CHARSET : UTF-8
+
+[2021-06-23 18:20:28] 
+SEVERE: 
+java.lang.InterruptedException: sleep interrupted
+	at java.base/java.lang.Thread.sleep(Native Method)
+	at com.raqsoft.input.view.CacheFileMonitor.run(Unknown Source:46)

@@ -1,0 +1,19 @@
+.sideMenu{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100px;
+}
+
+.sideMenu2{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor:pointer;
+	height: 30px;
+}
+
+.activeSideMenu{
+	border-left:inset 1px white;
+	border-style: inset;
+}

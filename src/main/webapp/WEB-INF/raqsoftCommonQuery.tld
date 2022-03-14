@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE taglib PUBLIC "-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.1//EN"
+"http://java.sun.com/j2ee/dtds/web-jsptaglibrary_1_1.dtd">
+
+<!--
+	qyx
+	dataSource
+  	qyxFolderOnServer
+  	outerCondition
+  	dimDataOnServer
+
+	showToolBar
+	showSubTable
+	showNullGroup
+	detectLevel
+-->
+
+<taglib>
+  <tlibversion>1.0</tlibversion>
+  <jspversion>1.1</jspversion>
+  <shortname>Raqsoft Common Query Tags</shortname>
+  <tag>
+    <name>commonQuery</name>
+    <tagclass>com.raqsoft.guide.tag.CommonQueryTag</tagclass>
+    <bodycontent>JSP</bodycontent>
+    <!-- *.json 或 *.dfx文件 --> 
+    <attribute>
+      <name>metadata</name>
+      <required>true</required>
+      <rtexprvalue>true</rtexprvalue>
+    </attribute>
+    <!-- 参数,dfx里可能用到 -->
+    <attribute>
+      <name>params</name>
+      <required>false</required>
+      <rtexprvalue>true</rtexprvalue>
+    </attribute>
+    <!-- 初始化查询界面 --> 
+    <attribute>
+      <name>cqx</name>
+      <required>false</required>
+      <rtexprvalue>true</rtexprvalue>
+    </attribute>       
+  </tag>
+  
+</taglib>
+  	
+  	
